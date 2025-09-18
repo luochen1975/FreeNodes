@@ -1,4 +1,4 @@
-2025-09-18 02:57:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-09-18 08:24:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -12,295 +12,216 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-09-18 02:57:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-09-18 08:24:47 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-09-18 02:57:15 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-09-18 08:24:47 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-09-18 02:57:15 [scrapy.core.engine] INFO: Spider opened
-2025-09-18 02:57:15 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2025-09-18 08:24:47 [scrapy.core.engine] INFO: Spider opened
+2025-09-18 08:24:47 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   warn(
 
-2025-09-18 02:57:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-09-18 02:57:15 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-09-18 02:57:15 [simple] INFO: clashmeta start
-2025-09-18 02:57:15 [simple] INFO: ndnode start
-2025-09-18 02:57:15 [simple] INFO: nodev2ray start
-2025-09-18 02:57:15 [simple] INFO: nodefree start
-2025-09-18 02:57:15 [simple] INFO: v2rayshare start
-2025-09-18 02:57:15 [simple] INFO: wenode start
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-15-free-node-subscribe-links.htm on 2025-09-15
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-15-free-node-subscribe-links.htm on 2025-09-15
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-14-free-subscribe-node.htm on 2025-09-14
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-14-free-subscribe-node.htm on 2025-09-14
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-13-free-subscribe-node.htm on 2025-09-13
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-13-free-subscribe-node.htm on 2025-09-13
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-12-latest-clash-meta-node.htm on 2025-09-12
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-12-latest-clash-meta-node.htm on 2025-09-12
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-11-node-share-links.htm on 2025-09-11
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-11-node-share-links.htm on 2025-09-11
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-10-free-high-speed-nodes.htm on 2025-09-10
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-10-free-high-speed-nodes.htm on 2025-09-10
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-9-free-node-subscribe.htm on 2025-09-09
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-9-free-node-subscribe.htm on 2025-09-09
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-8-free-clash-meta-node.htm on 2025-09-08
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-8-free-clash-meta-node.htm on 2025-09-08
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-7-clash-meta-github.htm on 2025-09-07
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-7-clash-meta-github.htm on 2025-09-07
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-6-free-high-speed-nodes.htm on 2025-09-06
-2025-09-18 02:57:15 [simple] INFO: clashmeta found /free-nodes/2025-9-6-free-high-speed-nodes.htm on 2025-09-06
-2025-09-18 02:57:15 [simple] INFO: clashmeta needs update, accessing https://clash-meta.github.io/free-nodes/2025-9-15-free-node-subscribe-links.htm
-2025-09-18 02:57:15 [simple] INFO: clashmeta needs update, accessing https://clash-meta.github.io/free-nodes/2025-9-15-free-node-subscribe-links.htm
-2025-09-18 02:57:15 [simple] INFO: clashmeta is up to date, exiting
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4201.html on 2025-09-18
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4202.html on 2025-09-17
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4203.html on 2025-09-16
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4204.html on 2025-09-15
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4205.html on 2025-09-14
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4206.html on 2025-09-13
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4207.html on 2025-09-12
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4208.html on 2025-09-11
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4209.html on 2025-09-10
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4210.html on 2025-09-09
-2025-09-18 02:57:15 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4201.html
-2025-09-18 02:57:15 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4202.html
-2025-09-18 02:57:15 [simple] INFO: v2rayshare is up to date, exiting
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/09/20250918.txt
-2025-09-18 02:57:15 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/09/20250918.yaml
-2025-09-18 02:57:15 [simple] WARNING: clashmeta could not parse https://clash-meta.github.io/uploads/20240803-1/5275ebd579800cece969c4082fd08870.webp" /, skipping
-2025-09-18 02:57:15 [simple] INFO: clashmeta found https://clash-meta.github.io/uploads/2025/09/0-20250915.yaml
-2025-09-18 02:57:15 [simple] INFO: clashmeta found https://clash-meta.github.io/uploads/2025/09/2-20250915.yaml
-2025-09-18 02:57:15 [simple] INFO: clashmeta found https://clash-meta.github.io/uploads/2025/09/3-20250915.yaml
-2025-09-18 02:57:15 [simple] INFO: clashmeta found https://clash-meta.github.io/uploads/2025/09/4-20250915.yaml
-2025-09-18 02:57:15 [simple] INFO: clashmeta found https://clash-meta.github.io/uploads/2025/09/0-20250915.txt
-2025-09-18 02:57:15 [simple] INFO: clashmeta found https://clash-meta.github.io/uploads/2025/09/1-20250915.txt
-2025-09-18 02:57:15 [simple] INFO: clashmeta found https://clash-meta.github.io/uploads/2025/09/4-20250915.txt
-2025-09-18 02:57:15 [simple] WARNING: clashmeta could not parse https://clash-meta.github.io/uploads/2025/09/20250915.json, skipping
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2788.html on 2025-09-17
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2789.html on 2025-09-16
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2790.html on 2025-09-15
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2791.html on 2025-09-14
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2792.html on 2025-09-13
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2793.html on 2025-09-12
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2794.html on 2025-09-11
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2795.html on 2025-09-10
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2796.html on 2025-09-09
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.me/p/2797.html on 2025-09-08
-2025-09-18 02:57:15 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2788.html
-2025-09-18 02:57:15 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2789.html
-2025-09-18 02:57:15 [simple] INFO: nodefree is up to date, exiting
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-18-free-subscribe-node.htm on 2025-09-18
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-17-v2ray-node-daily-updates.htm on 2025-09-17
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-16-free-v2ray-subscribe.htm on 2025-09-16
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-15-free-clash.htm on 2025-09-15
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-14-node-share.htm on 2025-09-14
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-13-free-node-subscribe-links.htm on 2025-09-13
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-12-free-node-subscribe-links.htm on 2025-09-12
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-11-free-v2ray.htm on 2025-09-11
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-10-free-node-subscribe.htm on 2025-09-10
-2025-09-18 02:57:15 [simple] INFO: nodev2ray found /free-node/2025-9-9-free-subscribe-node.htm on 2025-09-09
-2025-09-18 02:57:15 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-9-18-free-subscribe-node.htm
-2025-09-18 02:57:15 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-9-17-v2ray-node-daily-updates.htm
-2025-09-18 02:57:15 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-9-16-free-v2ray-subscribe.htm
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/09/20250917.txt
-2025-09-18 02:57:15 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/09/20250917.yaml
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2397.html on 2025-09-17
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2398.html on 2025-09-16
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2399.html on 2025-09-15
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2400.html on 2025-09-14
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2401.html on 2025-09-13
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2402.html on 2025-09-12
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2403.html on 2025-09-11
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2404.html on 2025-09-10
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2405.html on 2025-09-09
-2025-09-18 02:57:15 [simple] INFO: wenode found https://oneclash.cc/a/2406.html on 2025-09-08
-2025-09-18 02:57:15 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2397.html
-2025-09-18 02:57:15 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2398.html
-2025-09-18 02:57:15 [simple] INFO: wenode is up to date, exiting
-2025-09-18 02:57:16 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/09/20250917.txt
-2025-09-18 02:57:16 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/09/20250917.yaml
-2025-09-18 02:57:16 [simple] INFO: Pipeline got item clashmeta.yaml
-2025-09-18 02:57:16 [simple] INFO: Pipeline processed clashmeta.yaml
-2025-09-18 02:57:16 [simple] INFO: Pipeline got item clashmeta.txt
-2025-09-18 02:57:16 [simple] INFO: Pipeline processed clashmeta.txt
-2025-09-18 02:57:16 [simple] INFO: Pipeline got item clashmeta.yaml
-2025-09-18 02:57:16 [simple] INFO: Pipeline processed clashmeta.yaml
-2025-09-18 02:57:16 [simple] INFO: Pipeline got item clashmeta.txt
-2025-09-18 02:57:16 [simple] INFO: Pipeline processed clashmeta.txt
-2025-09-18 02:57:16 [simple] INFO: Pipeline got item clashmeta.yaml
-2025-09-18 02:57:16 [simple] INFO: Pipeline processed clashmeta.yaml
-2025-09-18 02:57:16 [simple] INFO: Pipeline got item clashmeta.yaml
-2025-09-18 02:57:17 [simple] INFO: Pipeline processed clashmeta.yaml
-2025-09-18 02:57:17 [simple] INFO: Pipeline got item v2rayshare.yaml
-2025-09-18 02:57:18 [simple] INFO: Pipeline processed v2rayshare.yaml
-2025-09-18 02:57:18 [simple] INFO: Pipeline got item v2rayshare.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline processed v2rayshare.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline got item clashmeta.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline processed clashmeta.txt
-2025-09-18 02:57:18 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/09/20250916.txt
-2025-09-18 02:57:18 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/09/20250916.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250918.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/1-20250918.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/2-20250918.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250918.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/1-20250918.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/2-20250918.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/3-20250918.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/4-20250918.yaml
-2025-09-18 02:57:18 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/09/20250918.json, skipping
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250917.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/4-20250917.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250917.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/1-20250917.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/2-20250917.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/4-20250917.yaml
-2025-09-18 02:57:18 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/09/20250917.json, skipping
-2025-09-18 02:57:18 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3266.html
-2025-09-18 02:57:18 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3264.html
-2025-09-18 02:57:18 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3262.html
-2025-09-18 02:57:18 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/0..."/, skipping
-2025-09-18 02:57:18 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/09/20250917.txt
-2025-09-18 02:57:18 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/09/20250917.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250916.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/1-20250916.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/2-20250916.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/4-20250916.txt
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/1-20250916.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/2-20250916.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/3-20250916.yaml
-2025-09-18 02:57:18 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/4-20250916.yaml
-2025-09-18 02:57:18 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/09/20250916.json, skipping
-2025-09-18 02:57:18 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/0..."/, skipping
-2025-09-18 02:57:18 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/09/20250916.txt
-2025-09-18 02:57:18 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/09/20250916.yaml
-2025-09-18 02:57:18 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:18 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:18 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:18 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250918-v2ray.txt
-2025-09-18 02:57:18 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250918-clash.yaml
-2025-09-18 02:57:18 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250917-v2ray.txt
-2025-09-18 02:57:18 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250917-clash.yaml
-2025-09-18 02:57:18 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250916-v2ray.txt
-2025-09-18 02:57:18 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250916-clash.yaml
-2025-09-18 02:57:18 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:19 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:19 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:19 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:19 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:20 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:20 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item v2rayshare.yaml
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed v2rayshare.yaml
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item nodefree.yaml
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed nodefree.yaml
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item nodefree.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed nodefree.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item v2rayshare.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed v2rayshare.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item wenode.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed wenode.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:21 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:22 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:22 [simple] INFO: Pipeline got item nodefree.yaml
-2025-09-18 02:57:22 [simple] INFO: Pipeline processed nodefree.yaml
-2025-09-18 02:57:22 [simple] INFO: Pipeline got item wenode.yaml
-2025-09-18 02:57:22 [simple] INFO: Pipeline processed wenode.yaml
-2025-09-18 02:57:22 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:23 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:23 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:24 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:24 [simple] INFO: Pipeline got item wenode.txt
-2025-09-18 02:57:24 [simple] INFO: Pipeline processed wenode.txt
-2025-09-18 02:57:24 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:24 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:24 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-09-18 02:57:24 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-09-18 02:57:24 [simple] INFO: Pipeline got item nodefree.txt
-2025-09-18 02:57:24 [simple] INFO: Pipeline processed nodefree.txt
-2025-09-18 02:57:24 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:24 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:24 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:25 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:25 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:26 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:26 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-09-18 02:57:26 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-09-18 02:57:26 [simple] INFO: Pipeline got item wenode.yaml
-2025-09-18 02:57:27 [simple] INFO: Pipeline processed wenode.yaml
-2025-09-18 02:57:27 [simple] INFO: Pipeline got item ndnode.txt
-2025-09-18 02:57:27 [simple] INFO: Pipeline processed ndnode.txt
-2025-09-18 02:57:27 [simple] INFO: Pipeline got item ndnode.txt
-2025-09-18 02:57:27 [simple] INFO: Pipeline processed ndnode.txt
-2025-09-18 02:57:27 [simple] INFO: Pipeline got item ndnode.txt
-2025-09-18 02:57:27 [simple] INFO: Pipeline processed ndnode.txt
-2025-09-18 02:57:27 [simple] INFO: Pipeline got item ndnode.yaml
-2025-09-18 02:57:27 [simple] INFO: Pipeline processed ndnode.yaml
-2025-09-18 02:57:27 [simple] INFO: Pipeline got item ndnode.yaml
-2025-09-18 02:57:27 [simple] INFO: Pipeline processed ndnode.yaml
-2025-09-18 02:57:27 [simple] INFO: Pipeline got item ndnode.yaml
-2025-09-18 02:57:28 [simple] INFO: Pipeline processed ndnode.yaml
-2025-09-18 02:57:28 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-09-18 02:57:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 29333,
- 'downloader/request_count': 69,
- 'downloader/request_method_count/GET': 69,
- 'downloader/response_bytes': 6749283,
- 'downloader/response_count': 69,
- 'downloader/response_status_count/200': 66,
+2025-09-18 08:24:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-09-18 08:24:47 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-09-18 08:24:47 [simple] INFO: clashmeta start
+2025-09-18 08:24:47 [simple] INFO: ndnode start
+2025-09-18 08:24:47 [simple] INFO: nodev2ray start
+2025-09-18 08:24:47 [simple] INFO: nodefree start
+2025-09-18 08:24:47 [simple] INFO: v2rayshare start
+2025-09-18 08:24:47 [simple] INFO: wenode start
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-15-free-node-subscribe-links.htm on 2025-09-15
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-15-free-node-subscribe-links.htm on 2025-09-15
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-14-free-subscribe-node.htm on 2025-09-14
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-14-free-subscribe-node.htm on 2025-09-14
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-13-free-subscribe-node.htm on 2025-09-13
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-13-free-subscribe-node.htm on 2025-09-13
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-12-latest-clash-meta-node.htm on 2025-09-12
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-12-latest-clash-meta-node.htm on 2025-09-12
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-11-node-share-links.htm on 2025-09-11
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-11-node-share-links.htm on 2025-09-11
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-10-free-high-speed-nodes.htm on 2025-09-10
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-10-free-high-speed-nodes.htm on 2025-09-10
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-9-free-node-subscribe.htm on 2025-09-09
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-9-free-node-subscribe.htm on 2025-09-09
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-8-free-clash-meta-node.htm on 2025-09-08
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-8-free-clash-meta-node.htm on 2025-09-08
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-7-clash-meta-github.htm on 2025-09-07
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-7-clash-meta-github.htm on 2025-09-07
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-6-free-high-speed-nodes.htm on 2025-09-06
+2025-09-18 08:24:47 [simple] INFO: clashmeta found /free-nodes/2025-9-6-free-high-speed-nodes.htm on 2025-09-06
+2025-09-18 08:24:47 [simple] INFO: clashmeta is up to date, exiting
+2025-09-18 08:24:47 [simple] INFO: clashmeta is up to date, exiting
+2025-09-18 08:24:47 [simple] INFO: clashmeta is up to date, exiting
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4201.html on 2025-09-18
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4202.html on 2025-09-17
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4203.html on 2025-09-16
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4204.html on 2025-09-15
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4205.html on 2025-09-14
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4206.html on 2025-09-13
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4207.html on 2025-09-12
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4208.html on 2025-09-11
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4209.html on 2025-09-10
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4210.html on 2025-09-09
+2025-09-18 08:24:47 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4201.html
+2025-09-18 08:24:47 [simple] INFO: v2rayshare is up to date, exiting
+2025-09-18 08:24:47 [simple] INFO: v2rayshare is up to date, exiting
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/09/20250918.txt
+2025-09-18 08:24:47 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/09/20250918.yaml
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2396.html on 2025-09-18
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2397.html on 2025-09-17
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2398.html on 2025-09-16
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2399.html on 2025-09-15
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2400.html on 2025-09-14
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2401.html on 2025-09-13
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2402.html on 2025-09-12
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2403.html on 2025-09-11
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2404.html on 2025-09-10
+2025-09-18 08:24:47 [simple] INFO: wenode found https://oneclash.cc/a/2405.html on 2025-09-09
+2025-09-18 08:24:47 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2396.html
+2025-09-18 08:24:47 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2397.html
+2025-09-18 08:24:47 [simple] INFO: wenode is up to date, exiting
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-18-free-subscribe-node.htm on 2025-09-18
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-17-v2ray-node-daily-updates.htm on 2025-09-17
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-16-free-v2ray-subscribe.htm on 2025-09-16
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-15-free-clash.htm on 2025-09-15
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-14-node-share.htm on 2025-09-14
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-13-free-node-subscribe-links.htm on 2025-09-13
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-12-free-node-subscribe-links.htm on 2025-09-12
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-11-free-v2ray.htm on 2025-09-11
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-10-free-node-subscribe.htm on 2025-09-10
+2025-09-18 08:24:47 [simple] INFO: nodev2ray found /free-node/2025-9-9-free-subscribe-node.htm on 2025-09-09
+2025-09-18 08:24:47 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-9-18-free-subscribe-node.htm
+2025-09-18 08:24:47 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-9-17-v2ray-node-daily-updates.htm
+2025-09-18 08:24:47 [simple] INFO: nodev2ray is up to date, exiting
+2025-09-18 08:24:48 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/0..."/, skipping
+2025-09-18 08:24:48 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/09/20250918.txt
+2025-09-18 08:24:48 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/09/20250918.yaml
+2025-09-18 08:24:48 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/0..."/, skipping
+2025-09-18 08:24:48 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/09/20250917.txt
+2025-09-18 08:24:48 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/09/20250917.yaml
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2788.html on 2025-09-17
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2789.html on 2025-09-16
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2790.html on 2025-09-15
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2791.html on 2025-09-14
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2792.html on 2025-09-13
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2793.html on 2025-09-12
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2794.html on 2025-09-11
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2795.html on 2025-09-10
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2796.html on 2025-09-09
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.me/p/2797.html on 2025-09-08
+2025-09-18 08:24:48 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2788.html
+2025-09-18 08:24:48 [simple] INFO: nodefree is up to date, exiting
+2025-09-18 08:24:48 [simple] INFO: nodefree is up to date, exiting
+2025-09-18 08:24:48 [simple] INFO: Pipeline got item v2rayshare.yaml
+2025-09-18 08:24:48 [simple] INFO: Pipeline processed v2rayshare.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250918.txt
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/1-20250918.txt
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/2-20250918.txt
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250918.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/1-20250918.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/2-20250918.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/3-20250918.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/4-20250918.yaml
+2025-09-18 08:24:48 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/09/20250918.json, skipping
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/09/20250917.txt
+2025-09-18 08:24:48 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/09/20250917.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250917.txt
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/4-20250917.txt
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/0-20250917.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/1-20250917.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/2-20250917.yaml
+2025-09-18 08:24:48 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/09/4-20250917.yaml
+2025-09-18 08:24:48 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/09/20250917.json, skipping
+2025-09-18 08:24:48 [simple] INFO: Pipeline got item v2rayshare.txt
+2025-09-18 08:24:48 [simple] INFO: Pipeline processed v2rayshare.txt
+2025-09-18 08:24:48 [simple] INFO: Pipeline got item wenode.txt
+2025-09-18 08:24:48 [simple] INFO: Pipeline processed wenode.txt
+2025-09-18 08:24:48 [simple] INFO: Pipeline got item wenode.txt
+2025-09-18 08:24:48 [simple] INFO: Pipeline processed wenode.txt
+2025-09-18 08:24:48 [simple] INFO: Pipeline got item wenode.yaml
+2025-09-18 08:24:49 [simple] INFO: Pipeline processed wenode.yaml
+2025-09-18 08:24:49 [simple] INFO: Pipeline got item wenode.yaml
+2025-09-18 08:24:49 [simple] INFO: Pipeline processed wenode.yaml
+2025-09-18 08:24:49 [simple] INFO: ndnode is up to date, exiting
+2025-09-18 08:24:49 [simple] INFO: ndnode is up to date, exiting
+2025-09-18 08:24:49 [simple] INFO: ndnode is up to date, exiting
+2025-09-18 08:24:49 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:50 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:50 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:51 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:51 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-09-18 08:24:51 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-09-18 08:24:51 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-09-18 08:24:51 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-09-18 08:24:51 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-09-18 08:24:51 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-09-18 08:24:51 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:51 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:51 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:52 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:52 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:52 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:52 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:52 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:52 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-09-18 08:24:52 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-09-18 08:24:52 [simple] INFO: Pipeline got item nodefree.txt
+2025-09-18 08:24:52 [simple] INFO: Pipeline processed nodefree.txt
+2025-09-18 08:24:52 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-09-18 08:24:52 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-09-18 08:24:52 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:52 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:52 [simple] INFO: Pipeline got item nodefree.yaml
+2025-09-18 08:24:53 [simple] INFO: Pipeline processed nodefree.yaml
+2025-09-18 08:24:53 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:54 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:54 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-09-18 08:24:54 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-09-18 08:24:54 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-09-18 08:24:54 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 15097,
+ 'downloader/request_count': 37,
+ 'downloader/request_method_count/GET': 37,
+ 'downloader/response_bytes': 3998113,
+ 'downloader/response_count': 37,
+ 'downloader/response_status_count/200': 34,
  'downloader/response_status_count/301': 3,
- 'dupefilter/filtered': 1,
- 'elapsed_time_seconds': 12.997137,
+ 'elapsed_time_seconds': 7.508541,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 9, 18, 2, 57, 28, 166450, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 2099030,
- 'httpcompression/response_count': 44,
- 'item_scraped_count': 47,
- 'items_per_minute': 235.0,
- 'log_count/INFO': 235,
- 'log_count/WARNING': 9,
- 'memusage/max': 179769344,
- 'memusage/startup': 179769344,
+ 'finish_time': datetime.datetime(2025, 9, 18, 8, 24, 54, 946234, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 638927,
+ 'httpcompression/response_count': 21,
+ 'item_scraped_count': 22,
+ 'items_per_minute': 188.57142857142856,
+ 'log_count/INFO': 160,
+ 'log_count/WARNING': 6,
+ 'memusage/max': 179724288,
+ 'memusage/startup': 179724288,
  'request_depth_max': 2,
- 'response_received_count': 66,
- 'responses_per_minute': 330.0,
- 'scheduler/dequeued': 69,
- 'scheduler/dequeued/memory': 69,
- 'scheduler/enqueued': 69,
- 'scheduler/enqueued/memory': 69,
- 'start_time': datetime.datetime(2025, 9, 18, 2, 57, 15, 169313, tzinfo=datetime.timezone.utc)}
-2025-09-18 02:57:28 [scrapy.core.engine] INFO: Spider closed (finished)
-2025-09-18 02:57:40 [scrapy.addons] INFO: Enabled addons:
+ 'response_received_count': 34,
+ 'responses_per_minute': 291.42857142857144,
+ 'scheduler/dequeued': 37,
+ 'scheduler/dequeued/memory': 37,
+ 'scheduler/enqueued': 37,
+ 'scheduler/enqueued/memory': 37,
+ 'start_time': datetime.datetime(2025, 9, 18, 8, 24, 47, 437693, tzinfo=datetime.timezone.utc)}
+2025-09-18 08:24:54 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-09-18 08:25:21 [scrapy.addons] INFO: Enabled addons:
 []
-2025-09-18 02:57:40 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
+2025-09-18 08:25:21 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
 It will be removed in a future version of Scrapy.
   return cls(crawler)
 
-2025-09-18 02:57:40 [scrapy.extensions.telnet] INFO: Telnet Password: bae76f7fef2bf61b
-2025-09-18 02:57:40 [scrapy.middleware] INFO: Enabled extensions:
+2025-09-18 08:25:21 [scrapy.extensions.telnet] INFO: Telnet Password: b85eaccfbf342cb8
+2025-09-18 08:25:21 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2025-09-18 02:57:40 [scrapy.crawler] INFO: Overridden settings:
+2025-09-18 08:25:21 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -308,7 +229,7 @@ It will be removed in a future version of Scrapy.
  'NEWSPIDER_MODULE': 'NodeScrapy.spiders',
  'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
  'SPIDER_MODULES': ['NodeScrapy.spiders']}
-2025-09-18 02:57:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-09-18 08:25:21 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -322,129 +243,92 @@ It will be removed in a future version of Scrapy.
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-09-18 02:57:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-09-18 08:25:21 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-09-18 02:57:40 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-09-18 08:25:21 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-09-18 02:57:40 [scrapy.core.engine] INFO: Spider opened
-2025-09-18 02:57:40 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2025-09-18 08:25:21 [scrapy.core.engine] INFO: Spider opened
+2025-09-18 08:25:21 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   warn(
 
-2025-09-18 02:57:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-09-18 02:57:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-09-18 02:57:40 [decrypt] INFO: yudou66 start
-2025-09-18 02:57:40 [decrypt] INFO: blues start
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259184kchatgpt4k8kclashv2ray.html on 2025-09-18
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259174kchatgpt4k8kclashv2ray.html on 2025-09-17
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259164kchatgpt4k8kclashv2ray.html on 2025-09-16
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259154kchatgpt4k8kclashv2ray.html on 2025-09-15
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259144kchatgpt4k8kclashv2ray.html on 2025-09-14
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259134kchatgpt4k8kclashv2ray.html on 2025-09-13
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259124kchatgpt4k8kclashv2ray.html on 2025-09-12
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259114kchatgpt4k8kclashv2ray.html on 2025-09-11
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259104kchatgpt4k8kclashv2ray.html on 2025-09-10
-2025-09-18 02:57:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/2025994kchatgpt4k8kclashv2ray.html on 2025-09-09
-2025-09-18 02:57:40 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/09/20259184kchatgpt4k8kclashv2ray.html
-2025-09-18 02:57:40 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/09/20259174kchatgpt4k8kclashv2ray.html
-2025-09-18 02:57:40 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/09/20259164kchatgpt4k8kclashv2ray.html
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509171641080p4kv2rayclashsing.html on 2025-09-17
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509161031080p4kv2rayclashsing.html on 2025-09-16
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/20250915661080p4kv2rayclashsing.html on 2025-09-15
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509141421080p4kv2rayclashsing.html on 2025-09-14
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509131801080p4kv2rayclashsing.html on 2025-09-13
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509121731080p4kv2rayclashsing_16.html on 2025-09-12
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509111841080p4kv2rayclashsing_10.html on 2025-09-11
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509101431080p4kv2rayclashsing_9.html on 2025-09-10
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou123.top/2025/09/202509171641080p4kv2rayclashsing.html
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou123.top/2025/09/202509161031080p4kv2rayclashsing.html
-2025-09-18 02:57:41 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou123.top/2025/09/20250915661080p4kv2rayclashsing.html
-2025-09-18 02:57:43 [decrypt] WARNING: blues 8811 got 密碼錯誤
-2025-09-18 02:57:45 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-09-18 02:57:46 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-09-18 02:57:48 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-09-18 02:57:49 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-09-18 02:57:50 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-09-18 02:57:52 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-09-18 02:57:53 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-09-18 02:57:55 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-09-18 02:57:56 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-09-18 02:57:57 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-09-18 02:57:59 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2025-09-18 02:58:00 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2025-09-18 02:58:01 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2025-09-18 02:58:02 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2025-09-18 02:58:04 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-09-18 02:58:05 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2025-09-18 02:58:06 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2025-09-18 02:58:07 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2025-09-18 02:58:11 [decrypt] INFO: blues found https://ylks.tt2000.sbs/2025/d7/b18/c.yaml
-2025-09-18 02:58:11 [decrypt] INFO: blues found https://ylks.tt2000.sbs/2025/d7/b18/v.txt
-2025-09-18 02:58:11 [decrypt] INFO: blues saved new password 1188
-2025-09-18 02:58:12 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2025-09-18 02:58:13 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-09-18 02:58:14 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-09-18 02:58:16 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-09-18 02:58:17 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-09-18 02:58:18 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-09-18 02:58:19 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-09-18 02:58:20 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-09-18 02:58:22 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-09-18 02:58:23 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-09-18 02:58:24 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-09-18 02:58:25 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2025-09-18 02:58:26 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2025-09-18 02:58:28 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2025-09-18 02:58:29 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2025-09-18 02:58:30 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-09-18 02:58:31 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2025-09-18 02:58:32 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2025-09-18 02:58:33 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2025-09-18 02:58:35 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2025-09-18 02:58:36 [decrypt] WARNING: blues 1199 got 密碼錯誤
-2025-09-18 02:58:37 [decrypt] WARNING: blues 2200 got 密碼錯誤
-2025-09-18 02:58:38 [decrypt] WARNING: blues 2211 got 密碼錯誤
-2025-09-18 02:58:40 [decrypt] WARNING: blues 2222 got 密碼錯誤
-2025-09-18 02:58:41 [decrypt] WARNING: blues 2233 got 密碼錯誤
-2025-09-18 02:58:42 [decrypt] WARNING: blues 2244 got 密碼錯誤
-2025-09-18 02:58:43 [decrypt] WARNING: blues 2255 got 密碼錯誤
-2025-09-18 02:58:44 [decrypt] WARNING: blues 2266 got 密碼錯誤
-2025-09-18 02:58:45 [decrypt] WARNING: blues 2277 got 密碼錯誤
-2025-09-18 02:58:47 [decrypt] WARNING: blues 2288 got 密碼錯誤
-2025-09-18 02:58:48 [decrypt] WARNING: blues 2299 got 密碼錯誤
-2025-09-18 02:58:49 [decrypt] WARNING: blues 3300 got 密碼錯誤
-2025-09-18 02:58:50 [decrypt] WARNING: blues 3311 got 密碼錯誤
-2025-09-18 02:58:52 [decrypt] WARNING: blues 3322 got 密碼錯誤
-2025-09-18 02:58:53 [decrypt] WARNING: blues 3333 got 密碼錯誤
-2025-09-18 02:58:54 [decrypt] WARNING: blues 3344 got 密碼錯誤
-2025-09-18 02:58:56 [decrypt] WARNING: blues 3355 got 密碼錯誤
-2025-09-18 02:58:57 [decrypt] WARNING: blues 3366 got 密碼錯誤
-2025-09-18 02:58:59 [decrypt] WARNING: blues 3377 got 密碼錯誤
-2025-09-18 02:59:00 [decrypt] WARNING: blues 3388 got 密碼錯誤
-2025-09-18 02:59:01 [decrypt] WARNING: blues 3399 got 密碼錯誤
-2025-09-18 02:59:02 [decrypt] WARNING: blues 4400 got 密碼錯誤
-2025-09-18 02:59:04 [decrypt] WARNING: blues 4411 got 密碼錯誤
-2025-09-18 02:59:05 [decrypt] WARNING: blues 4422 got 密碼錯誤
-2025-09-18 02:59:06 [decrypt] WARNING: blues 4433 got 密碼錯誤
-2025-09-18 02:59:07 [decrypt] WARNING: blues 4444 got 密碼錯誤
-2025-09-18 02:59:08 [decrypt] WARNING: blues 4455 got 密碼錯誤
-2025-09-18 02:59:10 [decrypt] WARNING: blues 4466 got 密碼錯誤
-2025-09-18 02:59:11 [decrypt] WARNING: blues 4477 got 密碼錯誤
-2025-09-18 02:59:12 [decrypt] WARNING: blues 4488 got 密碼錯誤
-2025-09-18 02:59:13 [decrypt] WARNING: blues 4499 got 密碼錯誤
-2025-09-18 02:59:15 [decrypt] WARNING: blues 5500 got 密碼錯誤
-2025-09-18 02:59:18 [decrypt] INFO: blues saved new password 5511
-2025-09-18 02:59:19 [decrypt] WARNING: blues 5511 got 密碼錯誤
-2025-09-18 02:59:21 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-09-18 02:59:22 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-09-18 02:59:25 [decrypt] INFO: blues found https://ylks.tt2000.sbs/2025/d7/a17/c.yaml
-2025-09-18 02:59:25 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
-2025-09-18 02:59:25 [decrypt] INFO: blues found https://ylks.tt2000.sbs/2025/d7/a17/v.txt
-2025-09-18 02:59:25 [decrypt] INFO: blues saved new password 0022
-2025-09-18 02:59:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.yudou123.top/2025/09/202509161031080p4kv2rayclashsing.html> (referer: https://www.yudou123.top/?m=1)
+2025-09-18 08:25:21 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-09-18 08:25:21 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-09-18 08:25:21 [decrypt] INFO: yudou66 start
+2025-09-18 08:25:21 [decrypt] INFO: blues start
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259184kchatgpt4k8kclashv2ray.html on 2025-09-18
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259174kchatgpt4k8kclashv2ray.html on 2025-09-17
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259164kchatgpt4k8kclashv2ray.html on 2025-09-16
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259154kchatgpt4k8kclashv2ray.html on 2025-09-15
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259144kchatgpt4k8kclashv2ray.html on 2025-09-14
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259134kchatgpt4k8kclashv2ray.html on 2025-09-13
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259124kchatgpt4k8kclashv2ray.html on 2025-09-12
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259114kchatgpt4k8kclashv2ray.html on 2025-09-11
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/20259104kchatgpt4k8kclashv2ray.html on 2025-09-10
+2025-09-18 08:25:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/09/2025994kchatgpt4k8kclashv2ray.html on 2025-09-09
+2025-09-18 08:25:22 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/09/20259184kchatgpt4k8kclashv2ray.html
+2025-09-18 08:25:22 [decrypt] INFO: blues is up to date, exiting
+2025-09-18 08:25:22 [decrypt] INFO: blues is up to date, exiting
+2025-09-18 08:25:25 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2025-09-18 08:25:27 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2025-09-18 08:25:28 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2025-09-18 08:25:29 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2025-09-18 08:25:30 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2025-09-18 08:25:32 [decrypt] WARNING: blues 0044 got 密碼錯誤
+2025-09-18 08:25:33 [decrypt] WARNING: blues 0055 got 密碼錯誤
+2025-09-18 08:25:35 [decrypt] WARNING: blues 0066 got 密碼錯誤
+2025-09-18 08:25:36 [decrypt] WARNING: blues 0077 got 密碼錯誤
+2025-09-18 08:25:37 [decrypt] WARNING: blues 0088 got 密碼錯誤
+2025-09-18 08:25:38 [decrypt] WARNING: blues 0099 got 密碼錯誤
+2025-09-18 08:25:40 [decrypt] WARNING: blues 1100 got 密碼錯誤
+2025-09-18 08:25:41 [decrypt] WARNING: blues 1111 got 密碼錯誤
+2025-09-18 08:25:42 [decrypt] WARNING: blues 1122 got 密碼錯誤
+2025-09-18 08:25:44 [decrypt] WARNING: blues 1133 got 密碼錯誤
+2025-09-18 08:25:45 [decrypt] WARNING: blues 1144 got 密碼錯誤
+2025-09-18 08:25:46 [decrypt] WARNING: blues 1155 got 密碼錯誤
+2025-09-18 08:25:48 [decrypt] WARNING: blues 1166 got 密碼錯誤
+2025-09-18 08:25:49 [decrypt] WARNING: blues 1177 got 密碼錯誤
+2025-09-18 08:25:52 [decrypt] INFO: blues found https://ylks.tt2000.sbs/2025/d7/b18/c.yaml
+2025-09-18 08:25:52 [decrypt] INFO: blues found https://ylks.tt2000.sbs/2025/d7/b18/v.txt
+2025-09-18 08:25:52 [decrypt] INFO: blues saved new password 1188
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/20250918891080p4kv2rayclashsing.html on 2025-09-18
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509171641080p4kv2rayclashsing.html on 2025-09-17
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509161031080p4kv2rayclashsing.html on 2025-09-16
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/20250915661080p4kv2rayclashsing.html on 2025-09-15
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509141421080p4kv2rayclashsing.html on 2025-09-14
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509131801080p4kv2rayclashsing.html on 2025-09-13
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509121731080p4kv2rayclashsing_16.html on 2025-09-12
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509111841080p4kv2rayclashsing_10.html on 2025-09-11
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/09/202509101431080p4kv2rayclashsing_9.html on 2025-09-10
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou123.top/2025/09/20250918891080p4kv2rayclashsing.html
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou123.top/2025/09/202509171641080p4kv2rayclashsing.html
+2025-09-18 08:25:52 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou123.top/2025/09/202509161031080p4kv2rayclashsing.html
+2025-09-18 08:25:54 [decrypt] WARNING: yudou66 5566 got 密碼錯誤
+2025-09-18 08:25:54 [decrypt] WARNING: yudou66 0000 got 密碼錯誤
+2025-09-18 08:25:54 [decrypt] WARNING: yudou66 0011 got 密碼錯誤
+2025-09-18 08:25:55 [decrypt] WARNING: yudou66 0022 got 密碼錯誤
+2025-09-18 08:25:55 [decrypt] WARNING: yudou66 0033 got 密碼錯誤
+2025-09-18 08:25:56 [decrypt] WARNING: yudou66 0044 got 密碼錯誤
+2025-09-18 08:25:56 [decrypt] WARNING: yudou66 0055 got 密碼錯誤
+2025-09-18 08:25:57 [decrypt] WARNING: yudou66 0066 got 密碼錯誤
+2025-09-18 08:25:57 [decrypt] WARNING: yudou66 0077 got 密碼錯誤
+2025-09-18 08:25:57 [decrypt] WARNING: yudou66 0088 got 密碼錯誤
+2025-09-18 08:25:58 [decrypt] WARNING: yudou66 0099 got 密碼錯誤
+2025-09-18 08:25:58 [decrypt] WARNING: yudou66 1100 got 密碼錯誤
+2025-09-18 08:25:59 [decrypt] WARNING: yudou66 1111 got 密碼錯誤
+2025-09-18 08:25:59 [decrypt] WARNING: yudou66 1122 got 密碼錯誤
+2025-09-18 08:25:59 [decrypt] WARNING: yudou66 1133 got 密碼錯誤
+2025-09-18 08:26:00 [decrypt] WARNING: yudou66 1144 got 密碼錯誤
+2025-09-18 08:26:00 [decrypt] WARNING: yudou66 1155 got 密碼錯誤
+2025-09-18 08:26:01 [decrypt] WARNING: yudou66 1166 got 密碼錯誤
+2025-09-18 08:26:01 [decrypt] WARNING: yudou66 1177 got 密碼錯誤
+2025-09-18 08:26:01 [decrypt] WARNING: yudou66 1188 got 密碼錯誤
+2025-09-18 08:26:02 [decrypt] WARNING: yudou66 1199 got 密碼錯誤
+2025-09-18 08:26:04 [decrypt] INFO: yudou66 saved new password 2200
+2025-09-18 08:26:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.yudou123.top/2025/09/202509171641080p4kv2rayclashsing.html?m=1> (referer: https://www.yudou123.top/)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 343, in iter_errback
     yield next(it)
@@ -490,29 +374,27 @@ Traceback (most recent call last):
 selenium.common.exceptions.JavascriptException: Message: javascript error: multiDecrypt is not defined
   (Session info: chrome=140.0.7339.80)
 Stacktrace:
-#0 0x5651dd16694a <unknown>
-#1 0x5651dcbdb8a0 <unknown>
-#2 0x5651dcbe24d8 <unknown>
-#3 0x5651dcbe502a <unknown>
-#4 0x5651dcc79c5e <unknown>
-#5 0x5651dcc53032 <unknown>
-#6 0x5651dcc78c23 <unknown>
-#7 0x5651dcc52e03 <unknown>
-#8 0x5651dcc1f968 <unknown>
-#9 0x5651dcc205e1 <unknown>
-#10 0x5651dd12a548 <unknown>
-#11 0x5651dd12e272 <unknown>
-#12 0x5651dd111313 <unknown>
-#13 0x5651dd12edc5 <unknown>
-#14 0x5651dd0f649f <unknown>
-#15 0x5651dd153158 <unknown>
-#16 0x5651dd153332 <unknown>
-#17 0x5651dd165a53 <unknown>
-#18 0x7f1230094ac3 <unknown>
+#0 0x5566b337194a <unknown>
+#1 0x5566b2de68a0 <unknown>
+#2 0x5566b2ded4d8 <unknown>
+#3 0x5566b2df002a <unknown>
+#4 0x5566b2e84c5e <unknown>
+#5 0x5566b2e5e032 <unknown>
+#6 0x5566b2e83c23 <unknown>
+#7 0x5566b2e5de03 <unknown>
+#8 0x5566b2e2a968 <unknown>
+#9 0x5566b2e2b5e1 <unknown>
+#10 0x5566b3335548 <unknown>
+#11 0x5566b3339272 <unknown>
+#12 0x5566b331c313 <unknown>
+#13 0x5566b3339dc5 <unknown>
+#14 0x5566b330149f <unknown>
+#15 0x5566b335e158 <unknown>
+#16 0x5566b335e332 <unknown>
+#17 0x5566b3370a53 <unknown>
+#18 0x7f314cc94ac3 <unknown>
 
-2025-09-18 02:59:26 [decrypt] INFO: yudou66 found https://yy.yudou66.top/202509/20250915bg3ase.txt
-2025-09-18 02:59:26 [decrypt] INFO: yudou66 found https://yy.yudou66.top/202509/2025.9.15Claj7sh.yaml
-2025-09-18 02:59:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.yudou123.top/2025/09/202509171641080p4kv2rayclashsing.html?m=1> (referer: https://www.yudou123.top/?m=1)
+2025-09-18 08:26:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.yudou123.top/2025/09/202509161031080p4kv2rayclashsing.html?m=1> (referer: https://www.yudou123.top/)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 343, in iter_errback
     yield next(it)
@@ -558,426 +440,59 @@ Traceback (most recent call last):
 selenium.common.exceptions.JavascriptException: Message: javascript error: multiDecrypt is not defined
   (Session info: chrome=140.0.7339.80)
 Stacktrace:
-#0 0x5651dd16694a <unknown>
-#1 0x5651dcbdb8a0 <unknown>
-#2 0x5651dcbe24d8 <unknown>
-#3 0x5651dcbe502a <unknown>
-#4 0x5651dcc79c5e <unknown>
-#5 0x5651dcc53032 <unknown>
-#6 0x5651dcc78c23 <unknown>
-#7 0x5651dcc52e03 <unknown>
-#8 0x5651dcc1f968 <unknown>
-#9 0x5651dcc205e1 <unknown>
-#10 0x5651dd12a548 <unknown>
-#11 0x5651dd12e272 <unknown>
-#12 0x5651dd111313 <unknown>
-#13 0x5651dd12edc5 <unknown>
-#14 0x5651dd0f649f <unknown>
-#15 0x5651dd153158 <unknown>
-#16 0x5651dd153332 <unknown>
-#17 0x5651dd165a53 <unknown>
-#18 0x7f1230094ac3 <unknown>
+#0 0x5566b337194a <unknown>
+#1 0x5566b2de68a0 <unknown>
+#2 0x5566b2ded4d8 <unknown>
+#3 0x5566b2df002a <unknown>
+#4 0x5566b2e84c5e <unknown>
+#5 0x5566b2e5e032 <unknown>
+#6 0x5566b2e83c23 <unknown>
+#7 0x5566b2e5de03 <unknown>
+#8 0x5566b2e2a968 <unknown>
+#9 0x5566b2e2b5e1 <unknown>
+#10 0x5566b3335548 <unknown>
+#11 0x5566b3339272 <unknown>
+#12 0x5566b331c313 <unknown>
+#13 0x5566b3339dc5 <unknown>
+#14 0x5566b330149f <unknown>
+#15 0x5566b335e158 <unknown>
+#16 0x5566b335e332 <unknown>
+#17 0x5566b3370a53 <unknown>
+#18 0x7f314cc94ac3 <unknown>
 
-2025-09-18 02:59:27 [decrypt] INFO: Pipeline got item blues.txt
-2025-09-18 02:59:27 [decrypt] INFO: Pipeline processed blues.txt
-2025-09-18 02:59:27 [decrypt] INFO: Pipeline got item blues.yaml
-2025-09-18 02:59:28 [decrypt] INFO: Pipeline processed blues.yaml
-2025-09-18 02:59:28 [decrypt] INFO: Pipeline got item blues.txt
-2025-09-18 02:59:28 [decrypt] INFO: Pipeline processed blues.txt
-2025-09-18 02:59:28 [decrypt] INFO: Pipeline got item blues.yaml
-2025-09-18 02:59:28 [decrypt] INFO: Pipeline processed blues.yaml
-2025-09-18 02:59:28 [decrypt] INFO: Pipeline got item yudou66.yaml
-2025-09-18 02:59:28 [scrapy.core.scraper] ERROR: Error processing {'body': '<!DOCTYPE html><html lang="en"  '
-         'data-adblockkey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANnylWw2vLY4hUn9w06zQKbhKBfvjFUCsdFlb6TdQhxb9RXWXuI4t31c+o8fYOv/s8q1LGPga3DE1L/tHU4LENMCAwEAAQ==_jvv94LU5lAdBIS0hWZBSj/XlYOk81iaywzbGH6tjUzXO/n9VKRshzEO1PFOe0nPJMPqOIsLlCPgU97UY9n8FxQ==><head><meta '
-         'charset="utf-8"><title>yudou66.top&nbsp;-&nbsp;yudou66 Resources and '
-         'Information.</title><meta name="viewport" '
-         'content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"><meta '
-         'name="description" content="yudou66.top is your first and best '
-         'source for all of the information you’re looking for. From general '
-         'topics to more of what you would expect to find here, yudou66.top '
-         'has it all. We hope you find what you are searching for!"><link\n'
-         '        rel="icon"\n'
-         '        type="image/png"\n'
-         '        href="//img.sedoparking.com/templates/logos/sedo_logo.png"\n'
-         '/><style>\n'
-         '        '
-         '.text-center{text-align:center}.left,.container-left{float:left}.right,.container-right{float:right}.full-width{clear:both}.clear,.clearfix{*zoom:1}.clear::before,.clear::after,.clearfix::before,.clearfix::after{content:" '
-         '";display:table}.clear::after,.clearfix::after{clear:both}#container-buybox:empty,#container-domain:empty,#container-content:empty,#container-searchbox:empty,#container-disclaimer:empty,#container-imprint:empty,#container-contact-us:empty,#container-privacy-policy:empty,#container-privacyPolicy:empty,#container-relatedlinks:empty,#container-cookie-message:empty,#left:empty,#right:empty,.content-relatedlinks:empty,.container-ads:empty{display:none}h1{font-size:2em;margin:0}h2{font-size:1.33em;margin:0}h3{font-size:1.1em;margin:0}h4{font-size:1em;margin:0}h5{font-size:.83em;margin:0}h6{font-size:.67em;margin:0}ul,li{padding:0;margin:0}/*! '
-         'normalize.css v1.1.2 | MIT License | git.io/normalize '
-         '*/article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin '
-         'dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:0}h2{font-size:1.33em;margin:0}h3{font-size:1.1em;margin:0}h4{font-size:1em;margin:0}h5{font-size:.83em;margin:0}h6{font-size:.67em;margin:0}abbr[title]{border-bottom:1px '
-         'dotted}b,strong{font-weight:bold}blockquote{margin:.11em '
-         '40px}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}p,pre{margin:.11em '
-         '0}code,kbd,pre,samp{font-family:monospace,serif;_font-family:"courier '
-         'new",monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:"";content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:0}dd{margin:0 '
-         '0 0 40px}menu,ol,ul{padding:0;list-style:none}nav ul,nav '
-         'ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:0 '
-         'none;margin:0;padding:0}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:middle;*vertical-align:middle}button,input{line-height:normal}button,select{text-transform:none}button,html '
-         'input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],html '
-         'input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}fieldset{border:none;margin:0;padding:0}#right '
-         '.vertical '
-         'h2{padding:0;margin:0}ul,menu,dir{-moz-padding-start:0}li#dose12{position:absolute;top:-500px}.name-silo-container{margin:auto}.name-silo-banner{background:#fff;text-align:center;padding:10px;color:#949494;font-size:.9em}.name-silo-banner '
-         'a{color:#949494}.right-container{grid-area:1/2/2/6}.left-container{background-image:url("https://img.sedoparking.com/templates/bg/NameSiloLogo.png");background-size:60vw;background-position:center;background-repeat:no-repeat;height:40px;text-align:center;margin:auto;margin-bottom:10px}.content-disclaimer{font-size:10px}.content-disclaimer '
-         '.sedologo{float:left;padding:0 10px 0 0}.content-disclaimer '
-         'a:link,.content-disclaimer '
-         'a:visited{text-decoration:underline}.content-disclaimer '
-         'a:active,.content-disclaimer a:focus,.content-disclaimer '
-         'a:hover{text-decoration:none}.content-imprint{clear:both}.content-imprint '
-         'a:link,.content-imprint '
-         'a:visited{display:block;text-align:center;margin:0;padding:.5em '
-         '30px;text-decoration:underline}.content-imprint '
-         'a:hover,.content-imprint a:active,.content-imprint '
-         'a:focus{text-decoration:none}.content-contact-us{clear:both}.content-contact-us '
-         'a:link,.content-contact-us '
-         'a:visited{display:block;text-align:center;margin:0;padding:.5em '
-         '30px;text-decoration:underline}.content-contact-us '
-         'a:hover,.content-contact-us a:active,.content-contact-us '
-         'a:focus{text-decoration:none}.content-privacy-policy '
-         '#privacy-policy-text{display:none;border-style:solid;border-width:1px;padding:15px;margin-top:40px}.content-privacy-policy '
-         '#privacy-policy-link{padding:.5em '
-         '30px;clear:both}#container-cookie-message{position:fixed;bottom:0;width:100%;background:#5f5f5f;font-size:12px;padding-top:15px;padding-bottom:15px}#container-cookie-message '
-         'p,#container-cookie-message '
-         'a{color:#a0a0a0}#container-cookie-message '
-         'p{margin-left:5%;margin-right:5%}.content-buybox{background:linear-gradient(to '
-         'bottom, #666666 0%, #010101 100%);border-bottom:1px solid '
-         '#ccc;word-wrap:break-word;padding:10px '
-         '0;text-align:center}.content-buybox a{color:#fff}.content-buybox '
-         'a:link,.content-buybox a:active,.content-buybox '
-         'a:visited{text-decoration:none}.content-buybox '
-         'a:hover{text-decoration:underline}.content-buybox span '
-         'a{font-weight:bold}.content-buybox p,.content-buybox '
-         'h2{display:inline;font-size:1.1em}.content-buybox '
-         'h2{padding-right:.5em;text-transform:uppercase}.content-searchbox{text-align:center}.content-searchbox '
-         'label{display:none}.content-searchbox input,.content-searchbox '
-         'button{border-width:1px;border-style:solid;border-radius:10px;padding:5px}.content-searchbox '
-         'input{width:60%}.content-searchbox '
-         'button{font-weight:bold;cursor:pointer;margin-left:5px;padding-left:10px;padding-right:10px}.content-webarchive{*zoom:1;padding:0;margin:20px '
-         '0 20px '
-         '0}.content-webarchive::before,.content-webarchive::after{content:" '
-         '";display:table}.content-webarchive::after{clear:both}.content-webarchive '
-         'h2{font-size:1.2em;font-weight:bold;padding-bottom:20px}.content-webarchive '
-         'div{width:100%}.content-webarchive div .webarchive-block{padding:7px '
-         '0}.content-webarchive div .webarchive-block '
-         'h3{font-weight:bold}.content-webarchive div .webarchive-block h3 '
-         'a:link,.content-webarchive div .webarchive-block h3 '
-         'a:visited{text-decoration:none}.content-webarchive div '
-         '.webarchive-block h3 a:active,.content-webarchive div '
-         '.webarchive-block h3 a:focus,.content-webarchive div '
-         '.webarchive-block h3 '
-         'a:hover{text-decoration:underline}.content-webarchive div '
-         '.webarchive-block '
-         'ul{list-style:none;list-style-position:inside}.content-webarchive '
-         'div .webarchive-block ul li{padding:9px 8px 8px '
-         '10px;background:linear-gradient(to bottom, #444 0, #363636 '
-         '100%)}.content-webarchive div .webarchive-block ul '
-         'li:first-child{border-top:1px solid '
-         '#ccc;border-top-left-radius:10px;border-top-right-radius:10px}.content-webarchive '
-         'div .webarchive-block ul li{border-right:1px solid '
-         '#ccc;border-bottom:1px solid #ccc;border-left:1px solid '
-         '#ccc}.content-webarchive div .webarchive-block ul '
-         'li:last-child{border-bottom:1px solid '
-         '#ccc;border-bottom-left-radius:10px;border-bottom-right-radius:10px}.content-webarchive '
-         'div .webarchive-block ul li '
-         'a{font-size:20px;font-weight:bold}.content-webarchive div '
-         '.webarchive-block ul li '
-         'a:after{content:url("//img.sedoparking.com/templates/brick_gfx/1006/bullet_lime.gif");float:right;padding:0}.content-webarchive '
-         'div .webarchive-block ul li a:link,.content-webarchive div '
-         '.webarchive-block ul li '
-         'a:visited{text-decoration:none}.content-webarchive div '
-         '.webarchive-block ul li a:active,.content-webarchive div '
-         '.webarchive-block ul li a:focus,.content-webarchive div '
-         '.webarchive-block ul li a:hover{text-decoration:underline}.twot '
-         '#container-header{margin-top:35%}#container-footer{margin-top:100%}.content-disclaimer,.content-privacy-policy,.content-imprint,.content-contact-us{font-size:.9em}body{background:#2d2d2d}#container-footer{color:#595959}#container-footer '
-         'a{color:#595959}.domain h1{color:#595959}.content-relatedlinks h2 '
-         'span{color:#595959}.content-relatedlinks ul '
-         'li{border-bottom-color:#ccc}.content-relatedlinks ul '
-         'a:link,.content-relatedlinks ul '
-         'a:visited{color:#9fd801}.content-relatedlinks ul '
-         'a:hover,.content-relatedlinks ul a:active,.content-relatedlinks ul '
-         'a:focus{color:#e57921}.content-relatedlinks ul '
-         'p{color:#c1c1c1}.content-relatedlinks ul p '
-         'a:link,.content-relatedlinks ul p '
-         'a:visited{color:#c9ec6a}.content-relatedlinks ul p '
-         'a:hover,.content-relatedlinks ul p a:active,.content-relatedlinks ul '
-         'p a:focus{color:#e57921}.content-ads '
-         'h2{color:#595959;font-size:15px;font-weight:normal}.content-ads ul '
-         'li h3 a:link,.content-ads ul li h3 '
-         'a:visited{color:#9fd801}.content-ads ul li h3 a:hover,.content-ads '
-         'ul li h3 a:active,.content-ads ul li h3 '
-         'a:focus{color:#e57921}.content-ads ul li '
-         'p{color:#c1c1c1}.content-ads ul li p a:link,.content-ads ul li p '
-         'a:visited{color:#c9ec6a}.content-ads ul li p a:hover,.content-ads ul '
-         'li p a:active,.content-ads ul li p '
-         'a:focus{color:#e57921}.content-searchbox '
-         'input{background-color:#eee;border-color:#b2b2b2}.content-searchbox '
-         'button{background:none repeat scroll 0 0 '
-         'rgba(0,0,0,0);color:#c9ec6a;border-color:#b2b2b2;background-color:#363636}.content-webarchive '
-         'h2{color:#999}.content-webarchive div div.webarchive-block h3 '
-         'a:link,.content-webarchive div div.webarchive-block h3 '
-         'a:visited{color:#595959}.content-webarchive div div.webarchive-block '
-         'h3 a:active,.content-webarchive div div.webarchive-block h3 '
-         'a:focus,.content-webarchive div div.webarchive-block h3 '
-         'a:hover{color:#e57921;text-decoration:none}.content-webarchive div '
-         'div.webarchive-block ul li a:link,.content-webarchive div '
-         'div.webarchive-block ul li '
-         'a:visited{color:#9fd801}.content-webarchive div div.webarchive-block '
-         'ul li a:hover,.content-webarchive div div.webarchive-block ul li '
-         'a:active,.content-webarchive div div.webarchive-block ul li '
-         'a:focus{color:#e57921}body{font-size:14px;font-family:Arial,Helvetica,Verdana,"Lucida '
-         'Grande",sans-serif}.container-ads,.container-relatedlinks{overflow:hidden}#container-content{margin-top:25px}#container-header{padding-top:2%}#container-header,#container-searchbox,#container-imprint,#container-privacyPolicy{margin-left:5%;margin-right:5%}#container-searchbox{padding-bottom:20px}#container-footer>*{font-size:10px;padding:0 '
-         '10px}body.cookie-message-enabled{padding-bottom:300px}.container-ads{padding:0}.content-relatedlinks{margin:0 '
-         '0 100px 0}.content-relatedlinks h2{padding:3px 4px}.domain '
-         'h1{font-size:2.2em;font-weight:bold;text-decoration:none;text-transform:lowercase}#container-sedologo{display:block;text-align:center}.oneclick.twot '
-         '#container-content{margin-left:5%;margin-right:5%}.content-ads ul '
-         'li{padding:.6em 0}.content-ads ul '
-         'li::before{content:url("//img.sedoparking.com/templates/brick_gfx/1006/bullet_lime.gif");float:left;padding:3px '
-         '8px 0 6px}.content-ads ul li div{padding-left:35px}.content-ads ul '
-         'li div h3 '
-         'a{font-size:23px;text-transform:uppercase;font-weight:bold}.content-ads '
-         'ul li div p{padding:.3em 0 .6em 0;font-size:1.2em}.content-ads ul li '
-         'div p a{font-size:1em}ul '
-         'li{word-wrap:break-word}.content-relatedlinks ul '
-         'li{border-bottom-style:solid;border-bottom-width:1px;padding:10px '
-         '4px}.content-relatedlinks ul '
-         'li::before{content:url("//img.sedoparking.com/templates/brick_gfx/1006/bullet_lime.gif");float:left;padding:3px '
-         '8px 0 6px}.content-relatedlinks ul '
-         'li:last-child{border-bottom:none}.content-relatedlinks ul li '
-         'a:link{font-size:22px;font-weight:bold}.content-relatedlinks ul li '
-         'a:link,.content-relatedlinks ul li '
-         'a:visited{text-decoration:none}.content-relatedlinks ul li '
-         'a:hover,.content-relatedlinks ul li a:active,.content-relatedlinks '
-         'ul li '
-         'a:focus{text-decoration:underline}.btn-success{display:inline-block;border-style:solid;border-radius:5px;padding:15px '
-         '25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:.3s;background-color:#218838;border-color:#218838;color:#fff;font-size:x-large}.btn-success:hover{display:inline-block;border-style:solid;border-radius:5px;padding:15px '
-         '25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:.3s;background-color:#1a6b2c;border-color:#1a6b2c;color:#fff;font-size:x-large}.btn-secondary{display:inline-block;border-style:solid;border-radius:5px;padding:15px '
-         '25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:.3s;background-color:#8c959c;border-color:#8c959c;color:#fff;font-size:medium}.btn-secondary:hover{display:inline-block;border-style:solid;border-radius:5px;padding:15px '
-         '25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:.3s;background-color:#727c83;border-color:#727c83;color:#fff;font-size:medium}.btn-success-sm{display:inline-block;border-style:solid;border-radius:5px;padding:15px '
-         '25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:.3s;background-color:#218838;border-color:#218838;color:#fff;font-size:x-large;font-size:initial}.btn-success-sm:hover{display:inline-block;border-style:solid;border-radius:5px;padding:15px '
-         '25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:.3s;background-color:#1a6b2c;border-color:#1a6b2c;color:#fff;font-size:x-large;font-size:initial}.btn-secondary-sm{display:inline-block;border-style:solid;border-radius:5px;padding:15px '
-         '25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:.3s;background-color:#8c959c;border-color:#8c959c;color:#fff;font-size:medium;font-size:initial}.btn-secondary-sm:hover{display:inline-block;border-style:solid;border-radius:5px;padding:15px '
-         '25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:.3s;background-color:#727c83;border-color:#727c83;color:#fff;font-size:medium;font-size:initial}.switch{position:relative;display:inline-block;width:60px;height:34px}.switch '
-         'input{opacity:0;width:0;height:0}.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#5a6268;-webkit-transition:.4s;transition:.4s}.slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:#fff;-webkit-transition:.4s;transition:.4s}input:checked+.slider{background-color:#007bff}input:focus+.slider{box-shadow:0 '
-         '0 1px '
-         '#007bff}input:checked+.slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px)}.slider.round{border-radius:34px}.slider.round:before{border-radius:50%}.cookies-description{float:left;width:80%}.success{color:#218838}#cookie-message{text-align:left;margin:0 '
-         '15px;font-size:10px}#cookie-message h1,#cookie-message '
-         'p{color:#fff}#cookie-message h1{font-size:small}#cookie-message '
-         'p{margin-top:10px;margin-right:0px;margin-bottom:5px;margin-left:0px;font-size:larger}#cookie-message '
-         'a{color:#fff}#cookie-modal-window{position:fixed;background-color:rgba(200,200,200,.75);top:0;right:0;bottom:0;left:0;-webkit-transition:all '
-         '.3s;-moz-transition:all .3s;transition:all '
-         '.3s;text-align:center}#cookie-modal-window '
-         'h1{font-size:150%;margin:0 0 '
-         '15px}#modal-content{text-align:initial;margin:10% '
-         'auto;padding:40px;background:#fff;display:inline-block;max-width:550px;font-size:16px}#modal-content '
-         'p{line-height:1.5em;margin:16px '
-         '0}#cookie-modal-close{width:100%;margin:0}.modal-body '
-         'table{width:100%;border-collapse:collapse}.modal-body table '
-         'td{padding-left:15px}.necessary-cookies-row{background-color:#dee1e3}.disabled{display:none;z-index:-999}.announcement{background:#2d2d2d;text-align:center;padding:10px '
-         '5px}.announcement p{color:#aaa}.announcement '
-         'a{color:#aaa}.container-silobox{font-size:12px;text-align:center}.container-silobox__text{color:#919da6}.container-silobox__link{font-weight:normal;text-decoration:underline;color:#919da6}\n'
-         '\n'
-         '    </style><script type="text/javascript">\n'
-         '        var dto = '
-         '{"uiOptimize":true,"singleDomainName":"yudou66.top","domainName":"yudou66.top","domainPrice":0,"domainCurrency":"","adultFlag":false,"pu":"//yy.yudou66.top","dnsh":true,"dpsh":false,"toSell":false,"cdnHost":"img.sedoparking.com","adblockkey":" '
-         'data-adblockkey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANnylWw2vLY4hUn9w06zQKbhKBfvjFUCsdFlb6TdQhxb9RXWXuI4t31c+o8fYOv/s8q1LGPga3DE1L/tHU4LENMCAwEAAQ==_jvv94LU5lAdBIS0hWZBSj/XlYOk81iaywzbGH6tjUzXO/n9VKRshzEO1PFOe0nPJMPqOIsLlCPgU97UY9n8FxQ==","tid":3206,"buybox":false,"buyboxTopic":true,"disclaimer":true,"imprint":false,"searchbox":false,"noFollow":false,"slsh":false,"ppsh":true,"dnhlsh":true,"toSellUrl":"","toSellText":"","searchboxPath":"//yy.yudou66.top/parking.php","searchParams":{"ses":"Y3JlPTE3NTgxNjQzNjgmdGNpZD15eS55dWRvdTY2LnRvcDY4Y2I3NTkwYTIyMTg5LjUyNTIyNDgwJnRhc2s9c2VhcmNoJmRvbWFpbj15dWRvdTY2LnRvcCZhX2lkPTEmc2Vzc2lvbj1GNUtVRzdobFEtZDVpejVLU2lKbyZ0cmFja3F1ZXJ5PTE="},"imprintUrl":false,"contactUsUrl":false,"contentType":5,"t":"content","pus":"ses=Y3JlPTE3NTgxNjQzNjgmdGNpZD15eS55dWRvdTY2LnRvcDY4Y2I3NTkwYTIyMTg5LjUyNTIyNDgwJnRhc2s9c2VhcmNoJmRvbWFpbj15dWRvdTY2LnRvcCZhX2lkPTMmc2Vzc2lvbj1GNUtVRzdobFEtZDVpejVLU2lKbw==","postActionParameter":{"feedback":"/search/fb.php?ses=","token":{"pageLoaded":"73171eb659dc6ea10175816436801f8597bd1ad6cf"}},"gFeedSES":{"default":"ogcDSpCduzaS31MZvhbcNtqFh-LK9ZAVTgkR4j7ijh5doEclGVdIig-NuoIYBMG62ekWIPl27mXVQECdrMcqo8mrL3G39j4CZcRYRFIxWuM1ZIbJrTuUGnR0AZ_LOWbWqCuVBMwFBgLdbCi3qszopE8DGZ2KVtxMDtzTtvm5Lb4IRv3pmambgyhdfW3suQ8PPCSBPOWP2KR4EaBPvWxVhBDSBgsbthHgEUo_rmQOkOKUxPe8HN8QAv2SkqF6MVBNdap2gj5OBvnsAuawhoFeOQsa0xUsmS-EqlU70b3n0z0ei2xfInuAqezyDYuQFQ73-rRVhpxKIqiBXr-kziH5VOq5YG8EsxyZ05OfrNPSyOwQEl5ZDU3bomJLe9O-1wgIW-10w6Gk10S-mhLPBEoYFjJUT0EDTcYzpkEbfn9JGz5eC8nn3IOL4Yq0gHHdEk2eyx-AcWWexlhePZ44mFqFWe9iX_DHcIezABF-HNXoBLQzDSFesyRxrmSaKfSK_g6bGlSN69frUbeZp1b5kuvaQKNy2ANO4nXiKi3hhf2SdkfLmQHKFYmL1xjGVG0HvBpiYK97Kdhxf1PBy5BHfSnuU7s6t0-X-qj0zUOWX2PAAX2drVbGuukY_8","alternate":""},"visitorViewIdJsAds":"OGY0MDk0NmY2MWVkNTgwNWI2MDc2YmEwMDBmMTgzNWMJMQl5eS55dWRvdTY2LnRvcDY4Y2I3NTkwYTIyMTg5LjUyNTIyNDgwCXl5Lnl1ZG91NjYudG9wNjhjYjc1OTBhMjI1ZTguNDAwMTgxNjkJMTc1ODE2NDM2OAkw","jsParameter":{"request":{"pubId":"dp-sedo80_3ph","domainRegistrant":"as-drid-2383353299994854","kw":"","adtest":"off","adsafe":"low","uiOptimize":"true","hl":"en","noAds":5,"ivt":true,"channel":"exp-0050,auxa-control-1,8810114"}},"ads":[],"adv":1,"advt":1,"rls":[],"numberRelatedLinks":3,"waUrl":"/search/portal.php?l=ogcDSpCduzaS31MZvhbcNtqFh-LK9ZAVTgkR4j7ijh5doEclGVdIig-NuoIYBMG62ekWIPl27mXVQECdrMcqo8mrL3G39j4CZcRYRFIxWuM1ZIbJrTuUGnR0AZ_LOWbWqCuVBMwFBgLdbCi3qszopE8DGZ2KVtxMDtzTtvm5Lb4IRv3pmambgyhdfW3suQ8PPCSBPOWP2KR4EaBPvWxVhBDSBgsbthHgEUo_rmQOkOKUxPe8HN8QAv2SkqF6MVBNdap2gj5OBvnsAuawhoFeOQsa0xUsmS-EqlU70b3n0z0ei2xfInuAqezyDYuQFQ73-rRVhpxKIqiBXr-kziH5VOq5YG8EsxyZ05OfrNPSyOwQEl5ZDU3bomJLe9O-1wgIW-10w6Gk10S-mhLPBEoYFjJUT0EDTcYzpkEbfn9JGz5eC8nn3IOL4Yq0gHHdEk2eyx-AcWWexlhePZ44mFqFWe9iX_DHcIezABF-HNXoBLQzDSFesyRxrmSaKfSK_g6bGlSN69frUbeZp1b5kuvaQKNy2ANO4nXiKi3hhf2SdkfLmQHKFYmL1xjGVG0HvBpiYK97Kdhxf1PBy5BHfSnuU7s6t0-X-qj0zUOWX2PAAX2drVbGuukY_8","tsc":true,"tscQs":"ses=ogcYygJD-vMFgdaH7GY0zAzgrWVsu6rcuOxbwlWrHSCuMvz1QgtECP4kQtIP2EMf4qaLF_Qbvqy4JROfScsWbH5iH5O-S7KR62Z1Np2txAb_nfYcpRdOnUNGFfsKPzYjMWLLSLVxg99QyIjWAyWc4fN2dH5TlLc3tcwkwHWOw-LScAwI7h0bM6pXVr4grzbDHUwhgCqLFz_16nvHqBJrRxc1PUEWWPHElsGNxeXCzQNTV_OBJ2KnIyl631-bUrBgTqb6ls8BVeulF9h2Tu55ZKVYeWTdwTvd4CSPuFSYPTvms-Jp5q-jKZQ1gerwuI1igQCoZKB_T7Uj8RV7VXMJu5ZoNNJ5dal2UfkVcStv_i8MKTAYKItof57mUO1Dw&cv=2","lang":"en","maid":59,"sedoParkingUrl":"https://www.sedo.com/services/parking.php3","dbg":false,"signedLink":"l","visitorViewId":"v","registrar_params":[],"clickTrack":[],"cookieMessage":false,"cookieMessageInteractive":false,"executeTrackingPixels":false,"cmpBanner":false,"cmpBannerTheme":"65b28f71acf237e2130df1fa","enableCheqIntegration":true,"bannerTypes":[],"clickControlHost":"yy.yudou66.top"};\n'
-         '    </script></head><body\n'
-         '        class="\n'
-         '                            onet\n'
-         '        \n'
-         '        twoclick\n'
-         '        content"\n'
-         '><div id="container-header"><div id="container-domain"><div '
-         'class="domain" '
-         'id="dn-default"><h1>yudou66.top</h1></div></div></div><div '
-         'id="container-content"><div id="container-relatedlinks"><div '
-         'class="content-relatedlinks" id="rb-default"></div></div></div><div '
-         'id="container-searchbox"></div><div class="name-silo-container"><div '
-         'class="name-silo-banner"><div class="left-container"></div><div '
-         'class="right-container">This domain is registered at NameSilo. If '
-         'you are the owner, start administering it at <a '
-         'href="https://www.namesilo.com">NameSilo.com</a>. If this is not '
-         'your domain, <a '
-         'href="https://www.namesilo.com/domain/search-domains?query=yudou66.top">find '
-         'similar names</a> that work for you.</div></div></div><div '
-         'id="container-buybox"></div><div class="container-silobox"><p '
-         'class="container-silobox__text">\n'
-         '    Get a new <a class="container-silobox__link" '
-         'href="https://www.namesilo.com">domain</a>\n'
-         '    registered at NameSilo.com. Find out who owns any domain name '
-         'with the <a\n'
-         '            class="container-silobox__link" '
-         'href="https://www.namesilo.com/whois">WHOIS</a>\n'
-         '    tool.\n'
-         '</p></div><div id="container-footer"><div '
-         'id="container-disclaimer"><div class="content-disclaimer '
-         'content-disclaimer-1tier"><span class="text"><p>\n'
-         '            This webpage was generated by the domain owner using <a '
-         'href="https://www.sedo.com/services/parking.php3">Sedo Domain '
-         'Parking</a>. Disclaimer: Sedo maintains no relationship with third '
-         'party advertisers. Reference to any specific service or trade mark '
-         'is not controlled by Sedo nor does it constitute or imply its '
-         'association, endorsement or recommendation.\n'
-         '        </p></span></div></div><div '
-         'id="container-imprint"></div><div id="container-privacyPolicy"><div '
-         'class="content-privacy-policy"><div id="privacy-policy-link" '
-         'class="text-center"><a\n'
-         '                href="#"\n'
-         '                onclick="window.open(\n'
-         '                        '
-         "'//sedoparking.com/privacy-policy/en/index.html',\n"
-         "                        'privacy-policy','width=600,height=400');\n"
-         '                        return false;">\n'
-         '            Privacy Policy\n'
-         '        </a></div></div></div><div '
-         'id="container-contact-us"></div></div><div '
-         'id="container-cookie-message"></div><!-- CAF --><script '
-         'type="text/javascript" '
-         'src="//www.google.com/adsense/domains/caf.js?abp=1&amp;YEr3CiF6AuQqLspNobyal3ji0SyqxBLn=true"></script><script '
-         'type="text/javascript">\n'
-         '                var '
-         'cafRL={container:"rb-default",type:"relatedsearch",number:3,styleId:7097983261};if("adLoaded"in '
-         'dto.postActionParameter.token&&dto.postActionParameter.token.adLoaded){cafRL.adLoadedCallback=callbackAdLoaded}var '
-         'cafEl=[{meta:{layoutTypes:[1]},caf:{container:"ab-default",type:"ads",lines:3,linkTarget:"_blank",styleId:7097983261}},{meta:{layoutTypes:[5]},caf:cafRL},{meta:{layoutTypes:[1,2,5]},caf:{container:"sb-default",type:"searchbox",hideSearchInputBorder:true,hideSearchButtonBorder:true,colorSearchButton:"#363636",colorSearchButtonText:"#C9EC6A",fontSizeSearchInput:16,fontSizeSearchButton:16}}];\n'
-         '    </script><script type="text/javascript">\n'
-         '        var onclick_param_l=dto.signedLink;var '
-         'onclick_value_l=dto.gFeedSES.default;var '
-         'onclick_value_al=dto.gFeedSES.alternate;var '
-         'onclick_param_v=dto.visitorViewId;var '
-         'onclick_value_v=dto.visitorViewIdJsAds;var fb="";var '
-         'fb_token="";if(dto.postActionParameter){fb=dto.pu+dto.postActionParameter.feedback;if(dto.postActionParameter.token.pageLoaded){fb_token=dto.postActionParameter.token.pageLoaded}}var '
-         'pu=dto.pu;var ds=dto.adultFlag;var pus=dto.pus;var '
-         'tlt=dto.contentType;var dsb=dto.searchbox;var '
-         'pdto={caf:{colorBackground:"transparent"}};if(dto.jsParameter){for(let '
-         'key in '
-         'dto.jsParameter.request){pdto.caf[key]=dto.jsParameter.request[key]}}(function(){let '
-         'pageOptions=pdto.caf;let noAds=pdto.caf.noAds;delete '
-         'pdto.caf.noAds;pageOptions.resultsPageBaseUrl=pu+"/caf/?"+pus;let '
-         'clickControlParams={};clickControlParams[onclick_param_l]=onclick_value_l;clickControlParams[onclick_param_v]=onclick_value_v;function '
-         'setRlsAmount(){cafEl.forEach(function(part,index){if(cafEl[index].meta.layoutTypes.indexOf(dto.contentType)!==-1&&cafEl[index].caf.type==="relatedsearch"){cafEl[index].caf.number=dto.numberRelatedLinks}})}function '
-         'addClickTrackUrl(cafObject){let '
-         'params=Object.keys(clickControlParams).map(function(key){return '
-         'encodeURIComponent(key)+"="+encodeURIComponent(clickControlParams[key])}).join("&");let '
-         'parkingClickTrack="//"+dto.clickControlHost+"/search/cc.php?"+params;if(dto.clickTrack.length>0){dto.clickTrack.forEach(function(part,index){this[index]=encodeURI(this[index])},dto.clickTrack);cafObject.clicktrackUrl=[parkingClickTrack].concat(dto.clickTrack)}else{cafObject.clicktrackUrl=parkingClickTrack}}pageOptions.pageLoadedCallback=function(requestAccepted,status){let '
-         'fb_add_params="";function '
-         'isAdultStatusCallbackRequired(){if(!("adult"in status)){return '
-         'false}if(ds===false&&status.adult===true){return '
-         'true}if(ds===true&&status.adult===false){return true}return '
-         'false}function isErrorCodeCallbackRequired(){if(!("error_code"in '
-         'status)){return '
-         'false}if(isAdultStatusCallbackRequired()&&26===status.error_code){return '
-         'false}return '
-         'true}if(isAdultStatusCallbackRequired()){fb_add_params+="&as="+status.adult+"&gc="+status.client}if(isErrorCodeCallbackRequired()){fb_add_params+="&ec="+parseInt(status.error_code)}if(fb_add_params.length===0||fb_token.length===0){return}let '
-         'request=new '
-         'XMLHttpRequest;request.open("GET",fb+fb_token+fb_add_params,true);request.send()};function '
-         'collectCafObjects(){let '
-         'cafObjects=[pageOptions];cafEl.forEach(function(part,index){if(cafEl[index].meta.layoutTypes.indexOf(tlt)===-1){return}if(cafEl[index].caf.type==="ads"){addClickTrackUrl(cafEl[index].caf);cafEl[index].caf.number=noAds}pdto.caf.uiOptimize=dto.uiOptimize;if(cafEl[index].caf.type==="relatedsearch"&&dto.rls.length>0){return}if(cafEl[index].caf.type==="searchbox"&&dsb===false){return}cafObjects.push(cafEl[index].caf)});return '
-         'cafObjects}function appendCafRls(){if(dto.rls.length<=0){return}let '
-         'start=0;let '
-         'cafRlObjects=[pdto.caf];cafEl.forEach(function(part,index){if(cafEl[index].meta.layoutTypes.indexOf(dto.contentType)!==-1&&cafEl[index].caf.type==="relatedsearch"){let '
-         'stop=start+cafEl[index].caf.number;let terms=[];for(var '
-         'i=start;i<stop;i++){if(i>dto.rls.length-1){break}terms[i]=dto.rls[i].term;start=i+1}cafEl[index].caf.terms=terms.join(",");cafEl[index].caf.optimizeTerms=false;cafRlObjects.push(cafEl[index].caf)}});createCaf.apply(this,cafRlObjects)}if(typeof '
-         'google!=="undefined"){window.createCaf=function(){function '
-         'F(args){return '
-         'google.ads.domains.Caf.apply(this,args)}F.prototype=google.ads.domains.Caf.prototype;return '
-         'function(){return new '
-         'F(arguments)}}();setRlsAmount();if(dto.advt===1&&dto.contentType!==2&&dto.contentType!==3){appendCafRls()}let '
-         'cafObjects=collectCafObjects();if(cafObjects.length>1){createCaf.apply(this,cafObjects)}}})();function '
-         'tscCall(dto){const request=new '
-         'XMLHttpRequest;request.open("GET",dto.pu+"/search/tsc.php?"+dto.tscQs);request.send()}function '
-         'isFacebookCookieSet(){const '
-         'cookieArray=decodeURIComponent(document.cookie).split(";");for(let '
-         'i=0;i<cookieArray.length;i++){let '
-         'c=cookieArray[i].trim();if(c.indexOf("_fbp=")===0){return '
-         'true}}return '
-         'false}if(dto.tsc){if(dto.fbpCheck==undefined){tscCall(dto)}else{let '
-         'x=0;const intervalID=setInterval(function(){const '
-         'isSet=isFacebookCookieSet();if(isSet||x===9){tscCall(dto);clearInterval(intervalID)}x++},100)}}var '
-         '$parkModalButton=document.getElementById("cookie-modal-open");var '
-         '$parkModalCloseButton=document.getElementById("cookie-modal-close");var '
-         '$parkModal=document.getElementById("cookie-modal-window");var '
-         '$parkCookieMessage=document.getElementById("cookie-message");var '
-         '$parkThirdPartyCookieCheckbox=document.getElementById("third-party-cookie-checkbox");var '
-         '$parkAcceptAllCookiesButton=document.getElementById("accept-all-cookies-btn");var '
-         'executeTrackingPixel=function(trigger){if(trigger===true&&typeof '
-         'pxTracking==="function"){pxTracking()}};var '
-         'getCookieExpirationTime=function(){var d=new '
-         'Date;d.setTime(d.getTime()+7*24*60*60*1e3);return '
-         'd.toUTCString()};var '
-         'saveParkingCookie=function(statisticsCookie){var '
-         'cookieConsent={necessary:true,statistics:statisticsCookie,version:1,timestamp:(new '
-         'Date).getTime()};document.cookie="CookieConsent="+JSON.stringify(cookieConsent)+";expires="+getCookieExpirationTime()};if($parkModalButton!=null){$parkModalButton.onclick=function(e){$parkModal.classList.remove("disabled")}}if($parkModalCloseButton!=null){$parkModalCloseButton.onclick=function(e){$parkModal.classList.add("disabled");$parkCookieMessage.classList.add("disabled");saveParkingCookie($parkThirdPartyCookieCheckbox.checked);executeTrackingPixel($parkThirdPartyCookieCheckbox.checked)}}if($parkAcceptAllCookiesButton!=null){$parkAcceptAllCookiesButton.onclick=function(){$parkCookieMessage.classList.add("disabled");saveParkingCookie(true);executeTrackingPixel(true)}}if(dto.executeTrackingPixels===true){executeTrackingPixel(true)}\n'
-         '    </script></body></html>',
- 'date': '2025-09-15',
- 'ext': '.yaml',
- 'name': 'yudou66'}
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/scraper.py", line 387, in start_itemproc
-    output = await maybe_deferred_to_future(
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 1092, in _runCallbacks
-    current.result = callback(  # type: ignore[misc]
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 407, in f
-    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/FreeNodes/FreeNodes/NodeScrapy/pipelines.py", line 44, in process_item
-    data = yaml.safe_load(body)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/yaml/__init__.py", line 125, in safe_load
-    return load(stream, SafeLoader)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/yaml/__init__.py", line 81, in load
-    return loader.get_single_data()
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/yaml/constructor.py", line 49, in get_single_data
-    node = self.get_single_node()
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/yaml/composer.py", line 39, in get_single_node
-    if not self.check_event(StreamEndEvent):
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/yaml/parser.py", line 98, in check_event
-    self.current_event = self.state()
-                         ^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/yaml/parser.py", line 171, in parse_document_start
-    raise ParserError(None, None,
-yaml.parser.ParserError: expected '<document start>', but found '<scalar>'
-  in "<unicode string>", line 8, column 5:
-        </style><script type="text/javas ... 
-        ^
-2025-09-18 02:59:29 [decrypt] INFO: Pipeline got item yudou66.txt
-2025-09-18 02:59:29 [decrypt] INFO: Pipeline processed yudou66.txt
-2025-09-18 02:59:29 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-09-18 02:59:29 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/exception_count': 2,
- 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 2,
- 'downloader/request_bytes': 8168,
- 'downloader/request_count': 21,
- 'downloader/request_method_count/GET': 21,
- 'downloader/response_bytes': 789426,
- 'downloader/response_count': 19,
- 'downloader/response_status_count/200': 14,
- 'downloader/response_status_count/302': 5,
- 'elapsed_time_seconds': 108.825783,
+2025-09-18 08:26:05 [decrypt] INFO: Pipeline got item blues.txt
+2025-09-18 08:26:05 [decrypt] INFO: Pipeline processed blues.txt
+2025-09-18 08:26:05 [decrypt] INFO: Pipeline got item blues.yaml
+2025-09-18 08:26:06 [decrypt] INFO: Pipeline processed blues.yaml
+2025-09-18 08:26:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-09-18 08:26:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3811,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 476644,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 8,
+ 'downloader/response_status_count/302': 2,
+ 'elapsed_time_seconds': 44.318943,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 9, 18, 2, 59, 29, 128747, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 1772959,
- 'httpcompression/response_count': 12,
- 'item_scraped_count': 5,
- 'items_per_minute': 2.7777777777777777,
- 'log_count/ERROR': 3,
- 'log_count/INFO': 57,
- 'log_count/WARNING': 76,
- 'memusage/max': 186048512,
- 'memusage/startup': 175562752,
+ 'finish_time': datetime.datetime(2025, 9, 18, 8, 26, 6, 292051, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1215811,
+ 'httpcompression/response_count': 7,
+ 'item_scraped_count': 2,
+ 'items_per_minute': 2.7272727272727275,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 45,
+ 'log_count/WARNING': 42,
+ 'memusage/max': 176058368,
+ 'memusage/startup': 176058368,
  'request_depth_max': 2,
- 'response_received_count': 14,
- 'responses_per_minute': 7.777777777777778,
- 'retry/count': 2,
- 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 2,
- 'scheduler/dequeued': 21,
- 'scheduler/dequeued/memory': 21,
- 'scheduler/enqueued': 21,
- 'scheduler/enqueued/memory': 21,
+ 'response_received_count': 8,
+ 'responses_per_minute': 10.90909090909091,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
  'spider_exceptions/JavascriptException': 2,
  'spider_exceptions/count': 2,
- 'start_time': datetime.datetime(2025, 9, 18, 2, 57, 40, 302964, tzinfo=datetime.timezone.utc)}
-2025-09-18 02:59:29 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2025, 9, 18, 8, 25, 21, 973108, tzinfo=datetime.timezone.utc)}
+2025-09-18 08:26:06 [scrapy.core.engine] INFO: Spider closed (finished)
