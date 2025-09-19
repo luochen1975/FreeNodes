@@ -1,10 +1,10 @@
 {
   "yudou66": {
     "start_url": "https://www.yudou123.top/",
-    "up_date": "2025-09-15",
+    "up_date": "2025-09-19",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://yy.yudou66.top/[^<>\\r\\n]+",
-    "password": "0022",
+    "password": "8899",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
