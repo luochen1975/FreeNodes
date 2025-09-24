@@ -1,639 +1,184 @@
 allow-lan: true
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 log-level: info
 mode: Rule
 port: 7890
 proxies:
-- auth: dongtaiwang.com
-  name: '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  password: dongtaiwang.com
-  port: 35205
-  server: 104.168.10.176
-  skip-cert-verify: false
-  sni: apple.com
-  type: hysteria2
-- auth: 3QlSMKyqLp
-  name: '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  password: 3QlSMKyqLp
-  port: 443
-  server: android.yas-nowin.ir
-  skip-cert-verify: false
-  sni: android.yas-nowin.ir
-  type: hysteria2
-- auth: 45b46edb-679b-4ea5-befd-88c05bb94f80
-  name: '[Hysteria2] All--@IRAN_V2RAY1'
-  password: 45b46edb-679b-4ea5-befd-88c05bb94f80
-  port: 2056
-  server: de.eyucdn.xyz
-  skip-cert-verify: false
-  sni: de.eyucdn.xyz
-  type: hysteria2
-- auth: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3
-  name: '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: false
-  sni: hl.dport.top
-  type: hysteria2
-- auth: 6803bc9b-1157-431b-8f73-970a6deb741f
-  name: '[Hysteria2] telegram-@ISVvpn'
-  password: 6803bc9b-1157-431b-8f73-970a6deb741f
-  port: 29854
-  server: fra-nb-02.linlujs.pw
-  skip-cert-verify: false
-  type: hysteria2
-- auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
-  name: '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  password: 70197404-7b40-45e4-bb9c-8bc8995012ae
-  port: 24568
-  server: fra-nb-01.linlujs.pw
-  skip-cert-verify: false
-  type: hysteria2
-- auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
-  name: '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  password: 70197404-7b40-45e4-bb9c-8bc8995012ae
-  port: 25684
-  server: us-nb-01.linlujs.pw
-  skip-cert-verify: false
-  type: hysteria2
-- auth: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
-  name: '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
-  port: 31468
-  server: 77.223.214.193
-  skip-cert-verify: false
-  sni: www.bing.com
-  type: hysteria2
-- auth: 80747420-96c4-4a2f-83e6-eea4e46beb09
-  name: '[Hysteria2] @IRAN_V2RAY1 #1'
-  obfs: salamander
-  obfs-password: U1wBrYQyFm
-  password: 80747420-96c4-4a2f-83e6-eea4e46beb09
-  port: 20335
-  server: 70.34.215.221
-  skip-cert-verify: false
-  sni: drhystuichdfy.samanidempire.org
-  type: hysteria2
-- auth: 80747420-96c4-4a2f-83e6-eea4e46beb09
-  name: '[Hysteria2] All-@IRAN_V2RAY1'
-  obfs: salamander
-  obfs-password: U1wBrYQyFm
-  password: 80747420-96c4-4a2f-83e6-eea4e46beb09
-  port: 20335
-  server: drhystuichdfy.samanidempire.org
-  skip-cert-verify: false
-  sni: drhystuichdfy.samanidempire.org
-  type: hysteria2
-- auth: 8da7bd17-70ab-472d-a925-cc827857dc35
-  name: '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  obfs: salamander
-  obfs-password: qBbeISsJ8AK48fZW
-  password: 8da7bd17-70ab-472d-a925-cc827857dc35
-  port: 443
-  server: de.youyacloud.me
-  skip-cert-verify: false
-  sni: de.youyacloud.me
-  type: hysteria2
-- auth: Telegram--%3E%40Ln2Ray
-  name: '[Hysteria2] Join -> Telegram: @V2Gatee'
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram--%3E%40Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: false
-  sni: gavazn.55994421.xyz
-  type: hysteria2
-- auth: Yet-Another-Public-Config-1
-  name: '[Hysteria2] @V2RAYNG_1378'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  type: hysteria2
-- auth: Yet-Another-Public-Config-1
-  name: '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36300
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  type: hysteria2
-- auth: Yet-Another-Public-Config-1
-  name: '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  type: hysteria2
-- auth: Yet-Another-Public-Config-1
-  name: '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36600
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  type: hysteria2
-- auth: c9edf5cb-67ef-4440-8684-b3d301df6488
-  name: '[Hysteria2] @vpnserverrr👈🏻'
-  password: c9edf5cb-67ef-4440-8684-b3d301df6488
-  port: 21053
-  server: yue-ru.yuetoto.net
-  skip-cert-verify: false
-  sni: yue-ru.yuetoto.net
-  type: hysteria2
-- auth: dongtaiwang.com
-  name: '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  password: dongtaiwang.com
-  port: 5355
-  server: 51.159.111.32
-  skip-cert-verify: false
-  sni: www.bing.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: '[SS] tg频道:@ripaojiedian'
-  password: amazonskr05
-  port: 443
-  server: 18.159.61.225
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: '[VMess] 🇭🇰 香港|@ripaojiedian'
-  network: ws
-  port: 30809
-  server: v9.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- cipher: aes-256-gcm
-  name: '[SS] 🇭🇰 香港2|@ripaojiedian'
-  password: 2b5fad3874e5
-  port: 443
-  server: 156.251.179.135
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  port: 44601
-  server: 43.247.135.86
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
-- name: '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 447
-  server: 160.16.63.16
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 🇭🇰 香港5|@ripaojiedian'
-  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- name: '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 447
-  server: 160.16.70.180
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  network: http
-  port: 13193
-  server: 103.224.80.96
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 080d4d5d-6dbd-4d75-9927-aa3902c150a5
-- cipher: rc4-md5
-  name: '[SS] 🇯🇵 日本|@ripaojiedian'
-  password: efanccyun
-  port: 8766
-  server: cn01.efan8867801.xyz
-  type: ss
-- cipher: aes-256-gcm
-  name: '[SS] 🇯🇵 日本2|@ripaojiedian'
-  password: 8808e9f11454
+  name: US美国(mibei77.com 米贝节点分享)
+  password: Nk9asglDzHzjktVzTkvhaA
   port: 443
-  server: 137.220.142.139
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
-- name: '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1924
-  server: 153.121.73.102
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1924
-  server: 160.16.72.33
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  port: 37925
-  server: nnertn.vxzjv.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
-- cipher: aes-256-cfb
-  name: '[SS] 🇰🇷 韩国|@ripaojiedian'
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- name: '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 2045
-  server: 160.16.130.66
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4397
-  server: 160.16.117.182
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  network: ws
-  port: 30839
-  server: v39.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- cipher: rc4-md5
-  name: '[SS] 🇺🇸 美国2|@ripaojiedian'
-  password: efanccyun
-  port: 8774
-  server: cn01.efan8867801.xyz
-  type: ss
-- name: '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3294
-  server: 153.121.73.102
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 153.121.73.102
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: aes-256-cfb
-  name: '[SS] 🇻🇳 越南|@ripaojiedian'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.28
-  type: ss
-- cipher: ss
-  name: '[SS] tg频道:@ripaojiedian 2'
-  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 2
+  password: p78naCf2EfOlRSLTX0wFVx
   port: 443
-  server: 18.159.61.225
+  server: pupas-shirting-unsung.freesocks.work
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  port: 44601
-  server: 43.247.135.86
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
-- cipher: ss
-  name: '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MTc3ZGUxYS1hZWZmLTQzZjEtOTNhNi03ZGQwOGEyZmRjNDE
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  port: 37925
-  server: nnertn.vxzjv.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
-- cipher: ss
-  name: '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: ss
-  name: '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  port: 38388
-  server: 103.186.155.28
-  type: ss
-- name: '[Vless] BR_speednode_0001'
-  network: ws
-  port: 443
-  server: 185.133.35.106
-  servername: d-de1.djwstlsweb.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e22d2366-ac58-47e0-8362-89df9aa6349f
-  ws-opts:
-    headers:
-      Host: d-de1.djwstlsweb.top
-    path: /djjc/de1fp=ios
-- name: '[Trojan] NL_speednode_0010'
-  network: ws
-  password: 02XtoczO7V
-  port: 17590
-  server: 5.255.102.41
-  skip-cert-verify: false
-  sni: mooshali.arshiacomplus.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mooshali.arshiacomplus.dpdns.org
-    path: /hishhhh123
-- name: '[Trojan] SE_speednode_0012'
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: false
-  sni: sto.freeguard.org
-  type: trojan
-- name: '[Trojan] US_speednode_0013'
-  password: 3ZFDxASRw0XIcKYFlp4RSCeSwA8ap7lEAzZB7uNnO38yDYOzDe3p23CxF0OlTx6YSK3j3
-  port: 443
-  server: toaster.isquirrel.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0014'
-  password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA
-  port: 18332
-  server: blength.appagent.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0015'
-  password: B3AO9XlcTxaIATp08S29pS6luwZ8C4qDFzaCFYEDDSA5YDeKZAy3e2ZXRe73zIpxwByN7
-  port: 18333
-  server: kasheet.appagent.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0016'
-  password: RzFSy3laClaxnYCcO3jBEpYgDyZx2CO78IC3X46ATFD73RSSZZTx8yCOKYDOqeD8pSeRa
-  port: 28334
-  server: sirens.isquirrel.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0017'
-  password: nzSaSa3SFaCNFDCjOCg8A39e53p8l2xaTFCOu7qZx2Z8px4CK3DXeZYAwRRS3zY66laOE
-  port: 28331
-  server: seginus.appagent.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0018'
-  password: D0AASSpCKFjOBSwlwqylnOep8BDlgN3e3RY9S3Op2RaZZ58gID8yY3ej56CSuYacZz3EA
-  port: 443
-  server: delight.appagent.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0019'
-  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 3
+  password: 3SKej06yugYqRaxFllD4w7ayCCECS9xR8Z2Fz3nZATaDOOIXp3ceNYAD58SpB3
   port: 28333
-  server: connect.appagent.net
-  skip-cert-verify: false
+  server: phooey.appagent.net
+  skip-cert-verify: true
+  sni: phooey.appagent.net
   type: trojan
-- name: '[Trojan] US_speednode_0020'
-  password: 4xS33pu88RaTF37ZxRjzAZc9zxe8OaYBX9CSO3p5SSxquFOFEySnDlCleCFA2DN3gaeDl
-  port: 443
-  server: mintaka.appagent.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0021'
-  password: Z3aK0aZqwyNcz7S3l3ncNCODYxNFnA8SCOOSOZ3y3AX8xA4a0RZ3gxn39aqYAaBOyzR43acKOCzSX3S
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 4
+  password: DI3IFnD36aYZy9uZSNCTyCzn8R0e6AC3lyYSSpZS8Oq375Xxl5aOD3xwAxEX3D3aYF2cK
   port: 28331
-  server: hanger.appagent.net
-  skip-cert-verify: false
+  server: cooker.isquirrel.net
+  skip-cert-verify: true
+  sni: cooker.isquirrel.net
   type: trojan
-- cipher: rc4-md5
-  name: '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509121565513-ZEnxwmeIFT.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 5
+  password: NZobzU7Wxu24kDcbOeHBEY
+  port: 2494
+  server: 143.244.137.253
   type: ss
-- cipher: rc4-md5
-  name: '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509121565513-ZEnxwmeIFT.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: DE德国(mibei77.com 米贝节点分享)
+  password: AzdG4PQMZlUHdZSET907cr
+  port: 4362
+  server: 185.247.118.230
   type: ss
-- cipher: aes-256-gcm
-  name: '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  password: 2b5fad3874e5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /aqwshiog
-    skip-cert-verify: false
-    tls: true
+  udp: true
+- name: JP日本(mibei77.com 米贝节点分享)
+  password: 6et7U7udLe
+  port: 22846
+  server: qige.zaide.tech
+  skip-cert-verify: true
+  sni: qige.zaide.tech
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 6
+  password: RFK38Cg7APneSB5cWDcpbm
   port: 443
-  server: 156.251.179.135
+  server: switcher-nick-croquet.freesocks.work
   type: ss
-- cipher: aes-256-gcm
-  name: '[SS] 🇯🇵 日本2|@ripaojiedian 2'
-  password: 8808e9f11454
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp5v1.lingjfjkm002.com
-    mode: websocket
-    mux: false
-    path: /nvcnjrmkggoy
-    skip-cert-verify: false
-    tls: true
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 7
+  network: ws
   port: 443
-  server: 137.220.142.139
+  server: klo.986986.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b75c9731-408d-4aa6-8ae9-3857205113a1
+  ws-headers:
+    Host: klo.986986.shop
+  ws-path: /nvjx6j7kbDQIQMZvbeVA9
+- name: JP日本(mibei77.com 米贝节点分享) 2
+  password: a4bab1bcdcf4413f
+  port: 30024
+  server: yh1201c.izzzzzi.com
+  skip-cert-verify: true
+  sni: yh1201c.izzzzzi.com
+  type: trojan
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 8
+  password: BAu7ZSyD3IZppnCOxCzaFXje3SECzZgX83e3x7yZA8SDCacyagKFlEO6O0AlTSwDDe4SF
+  port: 443
+  server: louber.missionsec.us
+  skip-cert-verify: true
+  sni: louber.missionsec.us
+  type: trojan
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 9
+  password: BAu7ZSyD3IZppnCOxCzaFXje3SECzZgX83e3x7yZA8SDCacyagKFlEO6O0AlTSwDDe4SF
+  port: 443
+  server: louber.missionsec.us
+  skip-cert-verify: true
+  sni: louber.missionsec.us
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享)
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 10
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
   type: ss
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 11
+  password: f282b878-8711-45a1-8c69-5564172123c1
+  port: 443
+  server: aio.zipzap.biz.id
+  skip-cert-verify: true
+  sni: aio.zipzap.biz.id
+  type: trojan
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 12
+  password: f282b878-8711-45a1-88c9-5564172123c1
+  port: 443
+  server: aio.zipzap.biz.id
+  skip-cert-verify: true
+  sni: aio.zipzap.biz.id
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  - '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  - '[Hysteria2] All--@IRAN_V2RAY1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  - '[Hysteria2] telegram-@ISVvpn'
-  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  - '[Hysteria2] @IRAN_V2RAY1 #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee'
-  - '[Hysteria2] @V2RAYNG_1378'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  - '[Hysteria2] @vpnserverrr👈🏻'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  - '[SS] tg频道:@ripaojiedian'
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[SS] 🇯🇵 日本|@ripaojiedian'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[SS] 🇻🇳 越南|@ripaojiedian'
-  - '[SS] tg频道:@ripaojiedian 2'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  - '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian 2'
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - DE德国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 6
+  - US美国(mibei77.com 米贝节点分享) 7
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 8
+  - US美国(mibei77.com 米贝节点分享) 9
+  - FR法国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 11
+  - US美国(mibei77.com 米贝节点分享) 12
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  - '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  - '[Hysteria2] All--@IRAN_V2RAY1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  - '[Hysteria2] telegram-@ISVvpn'
-  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  - '[Hysteria2] @IRAN_V2RAY1 #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee'
-  - '[Hysteria2] @V2RAYNG_1378'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  - '[Hysteria2] @vpnserverrr👈🏻'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  - '[SS] tg频道:@ripaojiedian'
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[SS] 🇯🇵 日本|@ripaojiedian'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[SS] 🇻🇳 越南|@ripaojiedian'
-  - '[SS] tg频道:@ripaojiedian 2'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  - '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian 2'
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - DE德国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 6
+  - US美国(mibei77.com 米贝节点分享) 7
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 8
+  - US美国(mibei77.com 米贝节点分享) 9
+  - FR法国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 11
+  - US美国(mibei77.com 米贝节点分享) 12
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -641,67 +186,22 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  - '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  - '[Hysteria2] All--@IRAN_V2RAY1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  - '[Hysteria2] telegram-@ISVvpn'
-  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  - '[Hysteria2] @IRAN_V2RAY1 #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee'
-  - '[Hysteria2] @V2RAYNG_1378'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  - '[Hysteria2] @vpnserverrr👈🏻'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  - '[SS] tg频道:@ripaojiedian'
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[SS] 🇯🇵 日本|@ripaojiedian'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[SS] 🇻🇳 越南|@ripaojiedian'
-  - '[SS] tg频道:@ripaojiedian 2'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  - '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian 2'
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - DE德国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 6
+  - US美国(mibei77.com 米贝节点分享) 7
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 8
+  - US美国(mibei77.com 米贝节点分享) 9
+  - FR法国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 11
+  - US美国(mibei77.com 米贝节点分享) 12
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -720,281 +220,91 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  - '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  - '[Hysteria2] All--@IRAN_V2RAY1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  - '[Hysteria2] telegram-@ISVvpn'
-  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  - '[Hysteria2] @IRAN_V2RAY1 #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee'
-  - '[Hysteria2] @V2RAYNG_1378'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  - '[Hysteria2] @vpnserverrr👈🏻'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  - '[SS] tg频道:@ripaojiedian'
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[SS] 🇯🇵 日本|@ripaojiedian'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[SS] 🇻🇳 越南|@ripaojiedian'
-  - '[SS] tg频道:@ripaojiedian 2'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  - '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian 2'
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - DE德国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 6
+  - US美国(mibei77.com 米贝节点分享) 7
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 8
+  - US美国(mibei77.com 米贝节点分享) 9
+  - FR法国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 11
+  - US美国(mibei77.com 米贝节点分享) 12
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  - '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  - '[Hysteria2] All--@IRAN_V2RAY1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  - '[Hysteria2] telegram-@ISVvpn'
-  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  - '[Hysteria2] @IRAN_V2RAY1 #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee'
-  - '[Hysteria2] @V2RAYNG_1378'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  - '[Hysteria2] @vpnserverrr👈🏻'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  - '[SS] tg频道:@ripaojiedian'
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[SS] 🇯🇵 日本|@ripaojiedian'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[SS] 🇻🇳 越南|@ripaojiedian'
-  - '[SS] tg频道:@ripaojiedian 2'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  - '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian 2'
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - DE德国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 6
+  - US美国(mibei77.com 米贝节点分享) 7
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 8
+  - US美国(mibei77.com 米贝节点分享) 9
+  - FR法国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 11
+  - US美国(mibei77.com 米贝节点分享) 12
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  - '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  - '[Hysteria2] All--@IRAN_V2RAY1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  - '[Hysteria2] telegram-@ISVvpn'
-  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  - '[Hysteria2] @IRAN_V2RAY1 #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee'
-  - '[Hysteria2] @V2RAYNG_1378'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  - '[Hysteria2] @vpnserverrr👈🏻'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  - '[SS] tg频道:@ripaojiedian'
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[SS] 🇯🇵 日本|@ripaojiedian'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[SS] 🇻🇳 越南|@ripaojiedian'
-  - '[SS] tg频道:@ripaojiedian 2'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  - '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian 2'
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - DE德国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 6
+  - US美国(mibei77.com 米贝节点分享) 7
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 8
+  - US美国(mibei77.com 米贝节点分享) 9
+  - FR法国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 11
+  - US美国(mibei77.com 米贝节点分享) 12
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  - '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  - '[Hysteria2] All--@IRAN_V2RAY1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  - '[Hysteria2] telegram-@ISVvpn'
-  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  - '[Hysteria2] @IRAN_V2RAY1 #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee'
-  - '[Hysteria2] @V2RAYNG_1378'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  - '[Hysteria2] @vpnserverrr👈🏻'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  - '[SS] tg频道:@ripaojiedian'
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[SS] 🇯🇵 日本|@ripaojiedian'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[SS] 🇻🇳 越南|@ripaojiedian'
-  - '[SS] tg频道:@ripaojiedian 2'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  - '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian 2'
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - DE德国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 6
+  - US美国(mibei77.com 米贝节点分享) 7
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 8
+  - US美国(mibei77.com 米贝节点分享) 9
+  - FR法国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 11
+  - US美国(mibei77.com 米贝节点分享) 12
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1010,67 +320,22 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[Hysteria2] 🇺🇸 United States_Los Angeles_hy2_... #3'
-  - '[Hysteria2] @EXPRESSVPN_420 -> همه اپرات...'
-  - '[Hysteria2] All--@IRAN_V2RAY1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
-  - '[Hysteria2] telegram-@ISVvpn'
-  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
-  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
-  - '[Hysteria2] @IRAN_V2RAY1 #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee'
-  - '[Hysteria2] @V2RAYNG_1378'
-  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
-  - '[Hysteria2] @vpnserverrr👈🏻'
-  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
-  - '[SS] tg频道:@ripaojiedian'
-  - '[VMess] 🇭🇰 香港|@ripaojiedian'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian'
-  - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港7|@ripaojiedian'
-  - '[SS] 🇯🇵 日本|@ripaojiedian'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
-  - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
-  - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
-  - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
-  - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[SS] 🇻🇳 越南|@ripaojiedian'
-  - '[SS] tg频道:@ripaojiedian 2'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港5|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[SS] 🇰🇷 韩国|@ripaojiedian 2'
-  - '[SS] 🇻🇳 越南|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
-  - '[SS] 🇺🇸 美国2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本|@ripaojiedian 2'
-  - '[SS] 🇭🇰 香港2|@ripaojiedian 2'
-  - '[SS] 🇯🇵 日本2|@ripaojiedian 2'
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - DE德国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 6
+  - US美国(mibei77.com 米贝节点分享) 7
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - US美国(mibei77.com 米贝节点分享) 8
+  - US美国(mibei77.com 米贝节点分享) 9
+  - FR法国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 11
+  - US美国(mibei77.com 米贝节点分享) 12
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
@@ -1158,7 +423,6 @@ rules:
 - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
-- DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
 - DOMAIN,app.adjust.com,🎯 全球直连
 - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
 - DOMAIN,log.mmstat.com,🎯 全球直连
@@ -1336,6 +600,7 @@ rules:
 - DOMAIN-SUFFIX,nichibenren.or.jp,🛑 全球拦截
 - DOMAIN-SUFFIX,nicorette.co.kr,🛑 全球拦截
 - DOMAIN-SUFFIX,adnet.sohu.com,🛑 全球拦截
+- DOMAIN-SUFFIX,data.vod.itc.cn,🛑 全球拦截
 - DOMAIN-SUFFIX,epro.sogou.com,🛑 全球拦截
 - DOMAIN-SUFFIX,go.sohu.com,🛑 全球拦截
 - DOMAIN-SUFFIX,golden1.sogou.com,🛑 全球拦截
@@ -1367,6 +632,7 @@ rules:
 - DOMAIN-SUFFIX,biz5.kankan.com,🛑 全球拦截
 - DOMAIN-SUFFIX,c.algovid.com,🛑 全球拦截
 - DOMAIN-SUFFIX,cms.laifeng.com,🛑 全球拦截
+- DOMAIN-SUFFIX,da.mmarket.com,🛑 全球拦截
 - DOMAIN-SUFFIX,dotcounter.douyutv.com,🛑 全球拦截
 - DOMAIN-SUFFIX,g.uusee.com,🛑 全球拦截
 - DOMAIN-SUFFIX,gcdn.2mdn.net,🛑 全球拦截
@@ -2493,6 +1759,7 @@ rules:
 - DOMAIN-SUFFIX,alipay.dajiadou6.com,🛑 全球拦截
 - DOMAIN-SUFFIX,aliqqjd.cn,🛑 全球拦截
 - DOMAIN-SUFFIX,alisinak.com,🛑 全球拦截
+- DOMAIN-SUFFIX,alissl.ucdl.pp.uc.cn,🛑 全球拦截
 - DOMAIN-SUFFIX,alistatic.cn,🛑 全球拦截
 - DOMAIN-SUFFIX,alitianxia168.com,🛑 全球拦截
 - DOMAIN-SUFFIX,alitui.weibo.com,🛑 全球拦截
@@ -2609,6 +1876,7 @@ rules:
 - DOMAIN-SUFFIX,api-game.meizu.com,🛑 全球拦截
 - DOMAIN-SUFFIX,apihk.growingio.com,🛑 全球拦截
 - DOMAIN-SUFFIX,api-push.meizu.com,🛑 全球拦截
+- DOMAIN-SUFFIX,api-shoulei-ssl.xunlei.com,🛑 全球拦截
 - DOMAIN-SUFFIX,apisoft.df0535.com,🛑 全球拦截
 - DOMAIN-SUFFIX,apk.idate520.com,🛑 全球拦截
 - DOMAIN-SUFFIX,apk.supfast.net,🛑 全球拦截
@@ -3210,6 +2478,7 @@ rules:
 - DOMAIN-SUFFIX,cca.mob.com,🛑 全球拦截
 - DOMAIN-SUFFIX,ccb.uncle-ad.com,🛑 全球拦截
 - DOMAIN-SUFFIX,ccbaihehq.com,🛑 全球拦截
+- DOMAIN-SUFFIX,ccclub.cmbchina.com,🛑 全球拦截
 - DOMAIN-SUFFIX,cccrir.com,🛑 全球拦截
 - DOMAIN-SUFFIX,ccr.yxdown.com,🛑 全球拦截
 - DOMAIN-SUFFIX,cctyly.com,🛑 全球拦截
@@ -3249,6 +2518,7 @@ rules:
 - DOMAIN-SUFFIX,cdn.media.innity.net,🛑 全球拦截
 - DOMAIN-SUFFIX,cdn.millennialmedia.com,🛑 全球拦截
 - DOMAIN-SUFFIX,cdn.mingmingtehui.com,🛑 全球拦截
+- DOMAIN-SUFFIX,cdn.moji.com,🛑 全球拦截
 - DOMAIN-SUFFIX,cdn.moji002.com,🛑 全球拦截
 - DOMAIN-SUFFIX,cdn.moogos.com,🛑 全球拦截
 - DOMAIN-SUFFIX,cdn.ndapp.com,🛑 全球拦截
@@ -4953,6 +4223,7 @@ rules:
 - DOMAIN-SUFFIX,huishenghuiying.com,🛑 全球拦截
 - DOMAIN-SUFFIX,humanding.com,🛑 全球拦截
 - DOMAIN-SUFFIX,hunpingou.com,🛑 全球拦截
+- DOMAIN-SUFFIX,huoying666.com,🛑 全球拦截
 - DOMAIN-SUFFIX,hv.code.tanwanyx.com,🛑 全球拦截
 - DOMAIN-SUFFIX,hw6.com,🛑 全球拦截
 - DOMAIN-SUFFIX,hwt.player888.cn,🛑 全球拦截
@@ -9541,6 +8812,7 @@ rules:
 - DOMAIN-SUFFIX,zzd6.com,🛑 全球拦截
 - DOMAIN-SUFFIX,mackeeper.com,🛑 全球拦截
 - DOMAIN-SUFFIX,app-measurement.com,🛑 全球拦截
+- DOMAIN-SUFFIX,mob.com,🛑 全球拦截
 - DOMAIN-SUFFIX,api.joybj.com,🛑 全球拦截
 - DOMAIN-SUFFIX,api.whizzone.com,🛑 全球拦截
 - DOMAIN-SUFFIX,mmstat.com,🛑 全球拦截
@@ -10021,8 +9293,6 @@ rules:
 - DOMAIN-SUFFIX,hypeapp.cn,🛑 全球拦截
 - DOMAIN-SUFFIX,hypersnap.net,🛑 全球拦截
 - DOMAIN-SUFFIX,iconworkshop.cn,🛑 全球拦截
-- DOMAIN-SUFFIX,idmchina.net,🛑 全球拦截
-- DOMAIN-SUFFIX,imazingchina.com,🛑 全球拦截
 - DOMAIN-SUFFIX,imindmap.cc,🛑 全球拦截
 - DOMAIN-SUFFIX,jihehuaban.com.cn,🛑 全球拦截
 - DOMAIN-SUFFIX,keyshot.cc,🛑 全球拦截
@@ -10092,8 +9362,6 @@ rules:
 - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
 - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
 - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-- DOMAIN,radio.itunes.apple.com,🌍 国外媒体
-- DOMAIN,tv.applemusic.com,🌍 国外媒体
 - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
 - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
 - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
@@ -10138,7 +9406,6 @@ rules:
 - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
 - DOMAIN,linear.tv.apple.com,🌍 国外媒体
 - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
-- DOMAIN,uts-api.itunes.apple.com,🌍 国外媒体
 - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
 - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
 - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
@@ -10225,7 +9492,6 @@ rules:
 - IP-CIDR,203.74.95.153/32,🌍 国外媒体,no-resolve
 - IP-CIDR,203.211.4.169/32,🌍 国外媒体,no-resolve
 - IP-CIDR,203.211.4.193/32,🌍 国外媒体,no-resolve
-- IP-CIDR,210.71.227.200/32,🌍 国外媒体,no-resolve
 - IP-CIDR,210.71.227.202/32,🌍 国外媒体,no-resolve
 - IP-CIDR,210.201.32.8/32,🌍 国外媒体,no-resolve
 - IP-CIDR,210.201.32.11/32,🌍 国外媒体,no-resolve
@@ -10326,14 +9592,15 @@ rules:
 - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
 - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
 - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
-- DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
-- DOMAIN-SUFFIX,bilibili.tv,🌏 国内媒体
-- DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
 - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
+- DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
+- DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
+- DOMAIN-SUFFIX,biligame.com,🌏 国内媒体
+- DOMAIN-SUFFIX,biligame.net,🌏 国内媒体
 - DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
 - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
-- DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 国内媒体
-- DOMAIN,apiintl.biliapi.net,🌏 国内媒体
+- DOMAIN-SUFFIX,im9.com,🌏 国内媒体
+- DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
 - DOMAIN,intel-cache.m.iqiyi.com,🌏 国内媒体
 - DOMAIN,intel-cache.video.iqiyi.com,🌏 国内媒体
 - DOMAIN,intl-rcd.iqiyi.com,🌏 国内媒体
@@ -10351,7 +9618,6 @@ rules:
 - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
 - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
 - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
-- DOMAIN-SUFFIX,youku.com,🌏 国内媒体
 - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
 - DOMAIN-SUFFIX,t.me,📲 电报信息
 - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
@@ -10365,14 +9631,11 @@ rules:
 - IP-CIDR,91.108.16.0/22,📲 电报信息,no-resolve
 - IP-CIDR,91.108.20.0/22,📲 电报信息,no-resolve
 - IP-CIDR,91.108.56.0/22,📲 电报信息,no-resolve
-- IP-CIDR,91.105.192.0/23,📲 电报信息,no-resolve
+- IP-CIDR,95.161.64.0/20,📲 电报信息,no-resolve
 - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
-- IP-CIDR,185.76.151.0/24,📲 电报信息,no-resolve
 - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
 - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
 - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
-- IP-CIDR6,2001:b28:f23c::/48,📲 电报信息,no-resolve
-- IP-CIDR6,2a0a:f280::/32,📲 电报信息,no-resolve
 - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
 - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
 - DOMAIN,payments-jp.amazon.com,🔰 节点选择
@@ -10381,36 +9644,16 @@ rules:
 - DOMAIN,a248.e.akamai.net,🔰 节点选择
 - DOMAIN,a771.dscq.akamai.net,🔰 节点选择
 - DOMAIN,testflight.apple.com,🔰 节点选择
-- DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
-- DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
-- DOMAIN,clubhouse.pubnubapi.com,🔰 节点选择
 - DOMAIN-SUFFIX,aex.com,🔰 节点选择
 - DOMAIN-SUFFIX,bibox.com,🔰 节点选择
 - DOMAIN-SUFFIX,binance.cc,🔰 节点选择
 - DOMAIN-SUFFIX,binance.com,🔰 节点选择
-- DOMAIN-SUFFIX,binance.us,🔰 节点选择
 - DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
 - DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
-- DOMAIN-SUFFIX,bithumb.com,🔰 节点选择
 - DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
-- DOMAIN-SUFFIX,bitstamp.net,🔰 节点选择
-- DOMAIN-SUFFIX,bittrex.com,🔰 节点选择
-- DOMAIN-SUFFIX,bybit.com,🔰 节点选择
-- DOMAIN-SUFFIX,coinbase.com,🔰 节点选择
-- DOMAIN-SUFFIX,coincheck.com,🔰 节点选择
-- DOMAIN-SUFFIX,coingecko.com,🔰 节点选择
-- DOMAIN-SUFFIX,coinmarketcap.com,🔰 节点选择
-- DOMAIN-SUFFIX,coinone.co.kr,🔰 节点选择
-- DOMAIN-SUFFIX,ftx.com,🔰 节点选择
 - DOMAIN-SUFFIX,gate.io,🔰 节点选择
-- DOMAIN-SUFFIX,gemini.com,🔰 节点选择
 - DOMAIN-SUFFIX,huobi.com,🔰 节点选择
-- DOMAIN-SUFFIX,korbit.co.kr,🔰 节点选择
-- DOMAIN-SUFFIX,kraken.com,🔰 节点选择
-- DOMAIN-SUFFIX,kucoin.com,🔰 节点选择
-- DOMAIN-SUFFIX,liquid.com,🔰 节点选择
 - DOMAIN-SUFFIX,okex.com,🔰 节点选择
-- DOMAIN-SUFFIX,poloniex.com,🔰 节点选择
 - DOMAIN-SUFFIX,uniswap.org,🔰 节点选择
 - DOMAIN-SUFFIX,zb.com,🔰 节点选择
 - DOMAIN-SUFFIX,discord.com,🔰 节点选择
@@ -10443,7 +9686,6 @@ rules:
 - DOMAIN-SUFFIX,blogger.com,🔰 节点选择
 - DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
 - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
-- DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
 - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
 - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
@@ -10494,14 +9736,11 @@ rules:
 - IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
 - IP-CIDR,91.108.20.0/22,🔰 节点选择,no-resolve
 - IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
-- IP-CIDR,91.105.192.0/23,🔰 节点选择,no-resolve
+- IP-CIDR,95.161.64.0/20,🔰 节点选择,no-resolve
 - IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
-- IP-CIDR,185.76.151.0/24,🔰 节点选择,no-resolve
 - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
 - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
 - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
-- IP-CIDR6,2001:b28:f23c::/48,🔰 节点选择,no-resolve
-- IP-CIDR6,2a0a:f280::/32,🔰 节点选择,no-resolve
 - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
 - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
 - DOMAIN-SUFFIX,t.co,🔰 节点选择
@@ -10570,6 +9809,7 @@ rules:
 - DOMAIN-SUFFIX,ck101.com,🔰 节点选择
 - DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
 - DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
+- DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
 - DOMAIN-SUFFIX,clyp.it,🔰 节点选择
 - DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
 - DOMAIN-SUFFIX,comparitech.com,🔰 节点选择
@@ -10663,6 +9903,7 @@ rules:
 - DOMAIN-SUFFIX,jiji.com,🔰 节点选择
 - DOMAIN-SUFFIX,jinx.com,🔰 节点选择
 - DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
+- DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
 - DOMAIN-SUFFIX,joinmastodon.org,🔰 节点选择
 - DOMAIN-SUFFIX,justmysocks.net,🔰 节点选择
 - DOMAIN-SUFFIX,justpaste.it,🔰 节点选择
@@ -10688,7 +9929,6 @@ rules:
 - DOMAIN-SUFFIX,marc.info,🔰 节点选择
 - DOMAIN-SUFFIX,matters.news,🔰 节点选择
 - DOMAIN-SUFFIX,maying.co,🔰 节点选择
-- DOMAIN-SUFFIX,medibang.com,🔰 节点选择
 - DOMAIN-SUFFIX,medium.com,🔰 节点选择
 - DOMAIN-SUFFIX,mega.nz,🔰 节点选择
 - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 节点选择
@@ -10778,7 +10018,6 @@ rules:
 - DOMAIN-SUFFIX,streamable.com,🔰 节点选择
 - DOMAIN-SUFFIX,streema.com,🔰 节点选择
 - DOMAIN-SUFFIX,substack.com,🔰 节点选择
-- DOMAIN-SUFFIX,substack.com,🔰 节点选择
 - DOMAIN-SUFFIX,t66y.com,🔰 节点选择
 - DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
 - DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
@@ -10794,7 +10033,6 @@ rules:
 - DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
 - DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
 - DOMAIN-SUFFIX,torproject.org,🔰 节点选择
-- DOMAIN-SUFFIX,tradingview.com,🔰 节点选择
 - DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
 - DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
 - DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
@@ -10911,33 +10149,20 @@ rules:
 - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
 - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
 - DOMAIN,books.itunes.apple.com,🔰 节点选择
-- DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
+- DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
 - DOMAIN,beta.music.apple.com,🔰 节点选择
-- DOMAIN,lookup-api.apple.com,🔰 节点选择
-- DOMAIN,apps.apple.com,🔰 节点选择
-- DOMAIN,books.apple.com,🔰 节点选择
-- DOMAIN,itunes.apple.com,🔰 节点选择
 - DOMAIN,tv.apple.com,🔰 节点选择
-- DOMAIN,amp-api.podcasts.apple.com,🔰 节点选择
-- DOMAIN,bookkeeper.itunes.apple.com,🔰 节点选择
-- DOMAIN,gateway.icloud.com,🔰 节点选择
-- DOMAIN-SUFFIX,apple.news,🔰 节点选择
-- DOMAIN,news-assets.apple.com,🔰 节点选择
-- DOMAIN,news-client.apple.com,🔰 节点选择
-- DOMAIN,news-client-search.apple.com,🔰 节点选择
-- DOMAIN,news-edge.apple.com,🔰 节点选择
-- DOMAIN,news-events.apple.com,🔰 节点选择
-- DOMAIN,apple.comscoreresearch.com,🔰 节点选择
+- DOMAIN,apps.apple.com,🔰 节点选择
+- DOMAIN,itunes.apple.com,🔰 节点选择
+- DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
+- DOMAIN,lookup-api.apple.com,🔰 节点选择
 - DOMAIN-SUFFIX,go.dev,🔰 节点选择
 - DOMAIN-SUFFIX,golang.org,🔰 节点选择
-- DOMAIN-SUFFIX,aicoin.com,🔰 节点选择
-- DOMAIN-SUFFIX,aimoon.com,🔰 节点选择
 - DOMAIN-SUFFIX,bing.com,🔰 节点选择
 - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
 - DOMAIN-SUFFIX,dubox.com,🔰 节点选择
 - DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
 - DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
-- DOMAIN-SUFFIX,linkedin.com,🔰 节点选择
 - DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
 - DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
 - DOMAIN-SUFFIX,sushi.com,🔰 节点选择
@@ -10945,10 +10170,12 @@ rules:
 - DOMAIN,developer.apple.com,🔰 节点选择
 - DOMAIN,www.icloud.com,🔰 节点选择
 - DOMAIN,ocsp.apple.com,🔰 节点选择
+- DOMAIN,xp.apple.com,🔰 节点选择
 - DOMAIN,cacerts.digicert.com,🔰 节点选择
 - DOMAIN,crl3.digicert.com,🔰 节点选择
 - DOMAIN,crl4.digicert.com,🔰 节点选择
 - DOMAIN,ocsp.digicert.com,🔰 节点选择
+- DOMAIN-SUFFIX,cloudcone.com.cn,🔰 节点选择
 - DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
 - DOMAIN-SUFFIX,metapix.net,🔰 节点选择
 - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
@@ -11104,11 +10331,19 @@ rules:
 - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
 - DOMAIN-SUFFIX,servicewechat.com,🎯 全球直连
 - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
-- DOMAIN-SUFFIX,tencent-cloud.com,🎯 全球直连
 - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
 - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
 - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
 - DOMAIN,file-igamecj.akamaized.net,🎯 全球直连
+- IP-CIDR,101.32.104.4/32,🎯 全球直连,no-resolve
+- IP-CIDR,101.32.104.41/32,🎯 全球直连,no-resolve
+- IP-CIDR,101.32.104.56/32,🎯 全球直连,no-resolve
+- IP-CIDR,101.32.118.25/32,🎯 全球直连,no-resolve
+- IP-CIDR,101.32.133.16/32,🎯 全球直连,no-resolve
+- IP-CIDR,101.32.133.53/32,🎯 全球直连,no-resolve
+- IP-CIDR,101.32.133.209/32,🎯 全球直连,no-resolve
+- IP-CIDR,129.226.3.47/32,🎯 全球直连,no-resolve
+- IP-CIDR,129.226.107.244/32,🎯 全球直连,no-resolve
 - IP-CIDR,182.254.116.0/24,🎯 全球直连,no-resolve
 - IP-CIDR,203.205.254.0/23,🎯 全球直连,no-resolve
 - DOMAIN-SUFFIX,ccgslb.com,🎯 全球直连
@@ -11188,7 +10423,6 @@ rules:
 - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
 - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
 - DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直连
-- DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
 - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
 - DOMAIN-SUFFIX,cmbimg.com,🎯 全球直连
 - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
@@ -11233,6 +10467,8 @@ rules:
 - DOMAIN-SUFFIX,keepcdn.com,🎯 全球直连
 - DOMAIN-SUFFIX,kkmh.com,🎯 全球直连
 - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
+- DOMAIN-SUFFIX,licdn.com,🎯 全球直连
+- DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
 - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
 - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
 - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
@@ -11255,7 +10491,6 @@ rules:
 - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
 - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
 - DOMAIN-SUFFIX,scomper.me,🎯 全球直连
-- DOMAIN-SUFFIX,shouqianba.com,🎯 全球直连
 - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
 - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
 - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
