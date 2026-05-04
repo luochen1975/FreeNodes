@@ -1,4 +1,4 @@
-2026-05-04 10:13:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2026-05-04 16:01:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -12,135 +12,135 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2026-05-04 10:13:15 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py:46: ScrapyDeprecationWarning: RandomUserAgentMiddleware.process_request() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-04 16:01:43 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py:46: ScrapyDeprecationWarning: RandomUserAgentMiddleware.process_request() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.process_request)
 
-2026-05-04 10:13:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+2026-05-04 16:01:43 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2026-05-04 10:13:15 [scrapy.middleware] INFO: Enabled item pipelines:
+2026-05-04 16:01:43 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2026-05-04 10:13:15 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: Pipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-04 16:01:43 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: Pipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(pipe.open_spider)
 
-2026-05-04 10:13:15 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: Pipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-04 16:01:43 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: Pipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(pipe.close_spider)
 
-2026-05-04 10:13:15 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: Pipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-04 16:01:43 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: Pipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(pipe.process_item)
 
-2026-05-04 10:13:15 [scrapy.core.engine] INFO: Spider opened
-2026-05-04 10:13:15 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:454: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2026-05-04 16:01:43 [scrapy.core.engine] INFO: Spider opened
+2026-05-04 16:01:43 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:454: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   self._check_deprecated_start_requests_use()
 
-2026-05-04 10:13:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2026-05-04 10:13:15 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2026-05-04 10:13:15 [simple] INFO: clashmeta start
-2026-05-04 10:13:15 [simple] INFO: ndnode start
-2026-05-04 10:13:15 [simple] INFO: nodev2ray start
-2026-05-04 10:13:15 [simple] INFO: nodefree start
-2026-05-04 10:13:15 [simple] INFO: v2rayshare start
-2026-05-04 10:13:15 [simple] INFO: wenode start
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-5-4-clash-meta-node-github.htm on 2026-05-04
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-5-4-clash-meta-node-github.htm on 2026-05-04
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-5-3-clash-meta-node-github.htm on 2026-05-03
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-5-3-clash-meta-node-github.htm on 2026-05-03
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-5-2-clash-meta-windows.htm on 2026-05-02
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-5-2-clash-meta-windows.htm on 2026-05-02
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-5-1-clash-meta-windows.htm on 2026-05-01
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-5-1-clash-meta-windows.htm on 2026-05-01
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-30-clash-meta-node-github.htm on 2026-04-30
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-30-clash-meta-node-github.htm on 2026-04-30
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-29-node-share-links.htm on 2026-04-29
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-29-node-share-links.htm on 2026-04-29
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-28-node-share-links.htm on 2026-04-28
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-28-node-share-links.htm on 2026-04-28
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-27-clash-meta-windows.htm on 2026-04-27
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-27-clash-meta-windows.htm on 2026-04-27
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-26-node-share.htm on 2026-04-26
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-26-node-share.htm on 2026-04-26
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-25-clash-meta-node.htm on 2026-04-25
-2026-05-04 10:13:15 [simple] INFO: clashmeta found /free-nodes/2026-4-25-clash-meta-node.htm on 2026-04-25
-2026-05-04 10:13:15 [simple] INFO: clashmeta is up to date, exiting
-2026-05-04 10:13:15 [simple] INFO: clashmeta is up to date, exiting
-2026-05-04 10:13:15 [simple] INFO: clashmeta is up to date, exiting
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5199.html on 2026-05-04
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5200.html on 2026-05-03
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5201.html on 2026-05-02
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5202.html on 2026-05-01
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5203.html on 2026-04-30
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5204.html on 2026-04-29
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5205.html on 2026-04-28
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5206.html on 2026-04-27
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5207.html on 2026-04-26
-2026-05-04 10:13:15 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5208.html on 2026-04-25
-2026-05-04 10:13:15 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/5199.html
-2026-05-04 10:13:15 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/5200.html
-2026-05-04 10:13:15 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/5201.html
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-5-4-free-clash.htm on 2026-05-04
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-5-3-free-high-speed-nodes.htm on 2026-05-03
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-5-2-clash-v2ray-ss-ssr.htm on 2026-05-02
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-5-2-v2ray-node.htm on 2026-05-02
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-5-1-free-clash-subscribe.htm on 2026-05-01
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-4-30-free-clash-subscribe.htm on 2026-04-30
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-4-29-free-node-subscribe-links.htm on 2026-04-29
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-4-28-free-subscribe-node.htm on 2026-04-28
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-4-27-free-high-speed-nodes.htm on 2026-04-27
-2026-05-04 10:13:15 [simple] INFO: nodev2ray found /free-node/2026-4-26-shadowrocket-node.htm on 2026-04-26
-2026-05-04 10:13:15 [simple] INFO: nodev2ray is up to date, exiting
-2026-05-04 10:13:15 [simple] INFO: nodev2ray is up to date, exiting
-2026-05-04 10:13:15 [simple] INFO: nodev2ray is up to date, exiting
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3428.html on 2026-05-04
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3429.html on 2026-05-03
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3430.html on 2026-05-02
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3431.html on 2026-05-01
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3432.html on 2026-04-30
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3433.html on 2026-04-29
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3434.html on 2026-04-28
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3435.html on 2026-04-27
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3436.html on 2026-04-26
-2026-05-04 10:13:15 [simple] INFO: wenode found https://oneclash.cc/a/3437.html on 2026-04-25
-2026-05-04 10:13:15 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/3428.html
-2026-05-04 10:13:15 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/3429.html
-2026-05-04 10:13:15 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/3430.html
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3796.html on 2026-05-04
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3797.html on 2026-05-03
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3798.html on 2026-05-02
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3799.html on 2026-05-01
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3800.html on 2026-04-30
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3801.html on 2026-04-29
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3802.html on 2026-04-28
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3803.html on 2026-04-27
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3804.html on 2026-04-26
-2026-05-04 10:13:15 [simple] INFO: nodefree found https://nodefree.me/p/3805.html on 2026-04-25
-2026-05-04 10:13:15 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/3796.html
-2026-05-04 10:13:15 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/3797.html
-2026-05-04 10:13:15 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/3798.html
-2026-05-04 10:13:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://naidounode.com/freenode/>: HTTP status code is not handled or not allowed
-2026-05-04 10:13:16 [scrapy.core.engine] INFO: Closing spider (finished)
-2026-05-04 10:13:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 6072,
+2026-05-04 16:01:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2026-05-04 16:01:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2026-05-04 16:01:43 [simple] INFO: clashmeta start
+2026-05-04 16:01:43 [simple] INFO: ndnode start
+2026-05-04 16:01:43 [simple] INFO: nodev2ray start
+2026-05-04 16:01:43 [simple] INFO: nodefree start
+2026-05-04 16:01:43 [simple] INFO: v2rayshare start
+2026-05-04 16:01:43 [simple] INFO: wenode start
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-5-4-clash-meta-node-github.htm on 2026-05-04
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-5-4-clash-meta-node-github.htm on 2026-05-04
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-5-3-clash-meta-node-github.htm on 2026-05-03
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-5-3-clash-meta-node-github.htm on 2026-05-03
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-5-2-clash-meta-windows.htm on 2026-05-02
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-5-2-clash-meta-windows.htm on 2026-05-02
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-5-1-clash-meta-windows.htm on 2026-05-01
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-5-1-clash-meta-windows.htm on 2026-05-01
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-30-clash-meta-node-github.htm on 2026-04-30
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-30-clash-meta-node-github.htm on 2026-04-30
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-29-node-share-links.htm on 2026-04-29
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-29-node-share-links.htm on 2026-04-29
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-28-node-share-links.htm on 2026-04-28
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-28-node-share-links.htm on 2026-04-28
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-27-clash-meta-windows.htm on 2026-04-27
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-27-clash-meta-windows.htm on 2026-04-27
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-26-node-share.htm on 2026-04-26
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-26-node-share.htm on 2026-04-26
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-25-clash-meta-node.htm on 2026-04-25
+2026-05-04 16:01:44 [simple] INFO: clashmeta found /free-nodes/2026-4-25-clash-meta-node.htm on 2026-04-25
+2026-05-04 16:01:44 [simple] INFO: clashmeta is up to date, exiting
+2026-05-04 16:01:44 [simple] INFO: clashmeta is up to date, exiting
+2026-05-04 16:01:44 [simple] INFO: clashmeta is up to date, exiting
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5199.html on 2026-05-04
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5200.html on 2026-05-03
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5201.html on 2026-05-02
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5202.html on 2026-05-01
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5203.html on 2026-04-30
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5204.html on 2026-04-29
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5205.html on 2026-04-28
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5206.html on 2026-04-27
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5207.html on 2026-04-26
+2026-05-04 16:01:44 [simple] INFO: v2rayshare found https://v2rayshare.net/p/5208.html on 2026-04-25
+2026-05-04 16:01:44 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/5199.html
+2026-05-04 16:01:44 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/5200.html
+2026-05-04 16:01:44 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/5201.html
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3428.html on 2026-05-04
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3429.html on 2026-05-03
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3430.html on 2026-05-02
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3431.html on 2026-05-01
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3432.html on 2026-04-30
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3433.html on 2026-04-29
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3434.html on 2026-04-28
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3435.html on 2026-04-27
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3436.html on 2026-04-26
+2026-05-04 16:01:44 [simple] INFO: wenode found https://oneclash.cc/a/3437.html on 2026-04-25
+2026-05-04 16:01:44 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/3428.html
+2026-05-04 16:01:44 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/3429.html
+2026-05-04 16:01:44 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/3430.html
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-5-4-free-clash.htm on 2026-05-04
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-5-3-free-high-speed-nodes.htm on 2026-05-03
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-5-2-clash-v2ray-ss-ssr.htm on 2026-05-02
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-5-2-v2ray-node.htm on 2026-05-02
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-5-1-free-clash-subscribe.htm on 2026-05-01
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-4-30-free-clash-subscribe.htm on 2026-04-30
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-4-29-free-node-subscribe-links.htm on 2026-04-29
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-4-28-free-subscribe-node.htm on 2026-04-28
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-4-27-free-high-speed-nodes.htm on 2026-04-27
+2026-05-04 16:01:44 [simple] INFO: nodev2ray found /free-node/2026-4-26-shadowrocket-node.htm on 2026-04-26
+2026-05-04 16:01:44 [simple] INFO: nodev2ray is up to date, exiting
+2026-05-04 16:01:44 [simple] INFO: nodev2ray is up to date, exiting
+2026-05-04 16:01:44 [simple] INFO: nodev2ray is up to date, exiting
+2026-05-04 16:01:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://naidounode.com/freenode/>: HTTP status code is not handled or not allowed
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3796.html on 2026-05-04
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3797.html on 2026-05-03
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3798.html on 2026-05-02
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3799.html on 2026-05-01
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3800.html on 2026-04-30
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3801.html on 2026-04-29
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3802.html on 2026-04-28
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3803.html on 2026-04-27
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3804.html on 2026-04-26
+2026-05-04 16:01:44 [simple] INFO: nodefree found https://nodefree.me/p/3805.html on 2026-04-25
+2026-05-04 16:01:44 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/3796.html
+2026-05-04 16:01:44 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/3797.html
+2026-05-04 16:01:44 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/3798.html
+2026-05-04 16:01:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2026-05-04 16:01:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6025,
  'downloader/request_count': 18,
  'downloader/request_method_count/GET': 18,
- 'downloader/response_bytes': 172187,
+ 'downloader/response_bytes': 172153,
  'downloader/response_count': 18,
  'downloader/response_status_count/200': 14,
  'downloader/response_status_count/301': 3,
  'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 0.939667,
+ 'elapsed_time_seconds': 0.912678,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2026, 5, 4, 10, 13, 16, 228594, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 766319,
+ 'finish_time': datetime.datetime(2026, 5, 4, 16, 1, 44, 798233, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 766187,
  'httpcompression/response_count': 15,
  'httperror/response_ignored_count': 1,
  'httperror/response_ignored_status_count/404': 1,
  'items_per_minute': None,
  'log_count/INFO': 85,
- 'memusage/max': 177876992,
- 'memusage/startup': 177876992,
+ 'memusage/max': 178102272,
+ 'memusage/startup': 178102272,
  'request_depth_max': 1,
  'response_received_count': 15,
  'responses_per_minute': None,
@@ -148,25 +148,25 @@
  'scheduler/dequeued/memory': 18,
  'scheduler/enqueued': 18,
  'scheduler/enqueued/memory': 18,
- 'start_time': datetime.datetime(2026, 5, 4, 10, 13, 15, 288927, tzinfo=datetime.timezone.utc)}
-2026-05-04 10:13:16 [scrapy.core.engine] INFO: Spider closed (finished)
-2026-05-04 10:13:25 [scrapy.addons] INFO: Enabled addons:
+ 'start_time': datetime.datetime(2026, 5, 4, 16, 1, 43, 885555, tzinfo=datetime.timezone.utc)}
+2026-05-04 16:01:44 [scrapy.core.engine] INFO: Spider closed (finished)
+2026-05-04 16:01:54 [scrapy.addons] INFO: Enabled addons:
 []
-2026-05-04 10:13:25 [scrapy.extensions.telnet] INFO: Telnet Password: b3c5521d5066f94e
-2026-05-04 10:13:25 [scrapy.middleware] INFO: Enabled extensions:
+2026-05-04 16:01:54 [scrapy.extensions.telnet] INFO: Telnet Password: 6347a2c3952abf40
+2026-05-04 16:01:54 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.logcount.LogCount',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2026-05-04 10:13:25 [scrapy.crawler] INFO: Overridden settings:
+2026-05-04 16:01:54 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
  'LOG_LEVEL': 'INFO',
  'NEWSPIDER_MODULE': 'NodeScrapy.spiders',
  'SPIDER_MODULES': ['NodeScrapy.spiders']}
-2026-05-04 10:13:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2026-05-04 16:01:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -180,263 +180,238 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2026-05-04 10:13:25 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py:46: ScrapyDeprecationWarning: RandomUserAgentMiddleware.process_request() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-04 16:01:54 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py:46: ScrapyDeprecationWarning: RandomUserAgentMiddleware.process_request() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.process_request)
 
-2026-05-04 10:13:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+2026-05-04 16:01:54 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2026-05-04 10:13:25 [scrapy.middleware] INFO: Enabled item pipelines:
+2026-05-04 16:01:54 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2026-05-04 10:13:25 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: Pipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-04 16:01:54 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: Pipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(pipe.open_spider)
 
-2026-05-04 10:13:25 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: Pipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-04 16:01:54 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: Pipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(pipe.close_spider)
 
-2026-05-04 10:13:25 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: Pipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-04 16:01:54 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: Pipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(pipe.process_item)
 
-2026-05-04 10:13:25 [scrapy.core.engine] INFO: Spider opened
-2026-05-04 10:13:25 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:454: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2026-05-04 16:01:54 [scrapy.core.engine] INFO: Spider opened
+2026-05-04 16:01:54 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:454: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   self._check_deprecated_start_requests_use()
 
-2026-05-04 10:13:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2026-05-04 10:13:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2026-05-04 10:13:25 [decrypt] INFO: yudou66 start
-2026-05-04 10:13:25 [decrypt] INFO: blues start
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/02/2026234kchatgpt4k8kclashv2ray.html on 2026-02-03
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/2026224kchatgpt4k8kclashv2ray.html on 2026-02-02
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261314kchatgpt4k8kclashv2ray.html on 2026-02-01
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261314kchatgpt4k8kclashv2ray_30.html on 2026-01-31
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261304kchatgpt4k8kclashv2ray.html on 2026-01-30
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261284kchatgpt4k8kclashv2ray.html on 2026-01-28
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261294kchatgpt4k8kclashv2ray.html on 2026-01-29
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261274kchatgpt4k8kclashv2ray.html on 2026-01-27
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261254kchatgpt4k8kclashv2ray.html on 2026-01-25
-2026-05-04 10:13:25 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261244kchatgpt4k8kclashv2ray.html on 2026-01-24
-2026-05-04 10:13:25 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2026/02/2026234kchatgpt4k8kclashv2ray.html
-2026-05-04 10:13:25 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2026/01/2026224kchatgpt4k8kclashv2ray.html
-2026-05-04 10:13:25 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2026/01/20261314kchatgpt4k8kclashv2ray.html
-2026-05-04 10:13:28 [decrypt] WARNING: blues 5511 got 密碼錯誤
-2026-05-04 10:13:29 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2026-05-04 10:13:30 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2026-05-04 10:13:31 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2026-05-04 10:13:31 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2026-05-04 10:13:32 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2026-05-04 10:13:33 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2026-05-04 10:13:34 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2026-05-04 10:13:35 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2026-05-04 10:13:36 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2026-05-04 10:13:37 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2026-05-04 10:13:38 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2026-05-04 10:13:39 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2026-05-04 10:13:39 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2026-05-04 10:13:40 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2026-05-04 10:13:41 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2026-05-04 10:13:42 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2026-05-04 10:13:43 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2026-05-04 10:13:43 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2026-05-04 10:13:44 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2026-05-04 10:13:45 [decrypt] WARNING: blues 1199 got 密碼錯誤
-2026-05-04 10:13:46 [decrypt] WARNING: blues 2200 got 密碼錯誤
-2026-05-04 10:13:47 [decrypt] WARNING: blues 2211 got 密碼錯誤
-2026-05-04 10:13:48 [decrypt] WARNING: blues 2222 got 密碼錯誤
-2026-05-04 10:13:48 [decrypt] WARNING: blues 2233 got 密碼錯誤
-2026-05-04 10:13:49 [decrypt] WARNING: blues 2244 got 密碼錯誤
-2026-05-04 10:13:50 [decrypt] WARNING: blues 2255 got 密碼錯誤
-2026-05-04 10:13:51 [decrypt] WARNING: blues 2266 got 密碼錯誤
-2026-05-04 10:13:52 [decrypt] WARNING: blues 2277 got 密碼錯誤
-2026-05-04 10:13:53 [decrypt] WARNING: blues 2288 got 密碼錯誤
-2026-05-04 10:13:54 [decrypt] WARNING: blues 2299 got 密碼錯誤
-2026-05-04 10:13:55 [decrypt] WARNING: blues 3300 got 密碼錯誤
-2026-05-04 10:13:56 [decrypt] WARNING: blues 3311 got 密碼錯誤
-2026-05-04 10:13:56 [decrypt] WARNING: blues 3322 got 密碼錯誤
-2026-05-04 10:13:57 [decrypt] WARNING: blues 3333 got 密碼錯誤
-2026-05-04 10:13:58 [decrypt] WARNING: blues 3344 got 密碼錯誤
-2026-05-04 10:13:59 [decrypt] WARNING: blues 3355 got 密碼錯誤
-2026-05-04 10:14:00 [decrypt] WARNING: blues 3366 got 密碼錯誤
-2026-05-04 10:14:01 [decrypt] WARNING: blues 3377 got 密碼錯誤
-2026-05-04 10:14:01 [decrypt] WARNING: blues 3388 got 密碼錯誤
-2026-05-04 10:14:02 [decrypt] WARNING: blues 3399 got 密碼錯誤
-2026-05-04 10:14:03 [decrypt] WARNING: blues 4400 got 密碼錯誤
-2026-05-04 10:14:04 [decrypt] WARNING: blues 4411 got 密碼錯誤
-2026-05-04 10:14:05 [decrypt] WARNING: blues 4422 got 密碼錯誤
-2026-05-04 10:14:06 [decrypt] WARNING: blues 4433 got 密碼錯誤
-2026-05-04 10:14:07 [decrypt] WARNING: blues 4444 got 密碼錯誤
-2026-05-04 10:14:08 [decrypt] WARNING: blues 4455 got 密碼錯誤
-2026-05-04 10:14:08 [decrypt] WARNING: blues 4466 got 密碼錯誤
-2026-05-04 10:14:09 [decrypt] WARNING: blues 4477 got 密碼錯誤
-2026-05-04 10:14:10 [decrypt] WARNING: blues 4488 got 密碼錯誤
-2026-05-04 10:14:11 [decrypt] WARNING: blues 4499 got 密碼錯誤
-2026-05-04 10:14:12 [decrypt] WARNING: blues 5500 got 密碼錯誤
-2026-05-04 10:14:13 [decrypt] WARNING: blues 5511 got 密碼錯誤
-2026-05-04 10:14:14 [decrypt] WARNING: blues 5522 got 密碼錯誤
-2026-05-04 10:14:14 [decrypt] WARNING: blues 5533 got 密碼錯誤
-2026-05-04 10:14:15 [decrypt] WARNING: blues 5544 got 密碼錯誤
-2026-05-04 10:14:16 [decrypt] WARNING: blues 5555 got 密碼錯誤
-2026-05-04 10:14:17 [decrypt] WARNING: blues 5566 got 密碼錯誤
-2026-05-04 10:14:18 [decrypt] WARNING: blues 5577 got 密碼錯誤
-2026-05-04 10:14:19 [decrypt] WARNING: blues 5588 got 密碼錯誤
-2026-05-04 10:14:20 [decrypt] WARNING: blues 5599 got 密碼錯誤
-2026-05-04 10:14:20 [decrypt] WARNING: blues 6600 got 密碼錯誤
-2026-05-04 10:14:21 [decrypt] WARNING: blues 6611 got 密碼錯誤
-2026-05-04 10:14:22 [decrypt] WARNING: blues 6622 got 密碼錯誤
-2026-05-04 10:14:25 [decrypt] INFO: blues saved new password 6633
-2026-05-04 10:14:25 [scrapy.extensions.logstats] INFO: Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
-2026-05-04 10:14:26 [decrypt] WARNING: blues 6633 got 密碼錯誤
-2026-05-04 10:14:27 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2026-05-04 10:14:28 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2026-05-04 10:14:29 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2026-05-04 10:14:30 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2026-05-04 10:14:31 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2026-05-04 10:14:31 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2026-05-04 10:14:32 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2026-05-04 10:14:33 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2026-05-04 10:14:34 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2026-05-04 10:14:35 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2026-05-04 10:14:36 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2026-05-04 10:14:37 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2026-05-04 10:14:38 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2026-05-04 10:14:39 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2026-05-04 10:14:40 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2026-05-04 10:14:41 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2026-05-04 10:14:42 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2026-05-04 10:14:43 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2026-05-04 10:14:43 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2026-05-04 10:14:44 [decrypt] WARNING: blues 1199 got 密碼錯誤
-2026-05-04 10:14:45 [decrypt] WARNING: blues 2200 got 密碼錯誤
-2026-05-04 10:14:46 [decrypt] WARNING: blues 2211 got 密碼錯誤
-2026-05-04 10:14:47 [decrypt] WARNING: blues 2222 got 密碼錯誤
-2026-05-04 10:14:48 [decrypt] WARNING: blues 2233 got 密碼錯誤
-2026-05-04 10:14:48 [decrypt] WARNING: blues 2244 got 密碼錯誤
-2026-05-04 10:14:49 [decrypt] WARNING: blues 2255 got 密碼錯誤
-2026-05-04 10:14:50 [decrypt] WARNING: blues 2266 got 密碼錯誤
-2026-05-04 10:14:51 [decrypt] WARNING: blues 2277 got 密碼錯誤
-2026-05-04 10:14:52 [decrypt] WARNING: blues 2288 got 密碼錯誤
-2026-05-04 10:14:53 [decrypt] WARNING: blues 2299 got 密碼錯誤
-2026-05-04 10:14:54 [decrypt] WARNING: blues 3300 got 密碼錯誤
-2026-05-04 10:14:54 [decrypt] WARNING: blues 3311 got 密碼錯誤
-2026-05-04 10:14:55 [decrypt] WARNING: blues 3322 got 密碼錯誤
-2026-05-04 10:14:57 [decrypt] WARNING: blues 3333 got 密碼錯誤
-2026-05-04 10:14:57 [decrypt] WARNING: blues 3344 got 密碼錯誤
-2026-05-04 10:14:58 [decrypt] WARNING: blues 3355 got 密碼錯誤
-2026-05-04 10:14:59 [decrypt] WARNING: blues 3366 got 密碼錯誤
-2026-05-04 10:15:00 [decrypt] WARNING: blues 3377 got 密碼錯誤
-2026-05-04 10:15:00 [decrypt] WARNING: blues 3388 got 密碼錯誤
-2026-05-04 10:15:01 [decrypt] WARNING: blues 3399 got 密碼錯誤
-2026-05-04 10:15:02 [decrypt] WARNING: blues 4400 got 密碼錯誤
-2026-05-04 10:15:03 [decrypt] WARNING: blues 4411 got 密碼錯誤
-2026-05-04 10:15:04 [decrypt] WARNING: blues 4422 got 密碼錯誤
-2026-05-04 10:15:05 [decrypt] WARNING: blues 4433 got 密碼錯誤
-2026-05-04 10:15:06 [decrypt] WARNING: blues 4444 got 密碼錯誤
-2026-05-04 10:15:06 [decrypt] WARNING: blues 4455 got 密碼錯誤
-2026-05-04 10:15:07 [decrypt] WARNING: blues 4466 got 密碼錯誤
-2026-05-04 10:15:08 [decrypt] WARNING: blues 4477 got 密碼錯誤
-2026-05-04 10:15:09 [decrypt] WARNING: blues 4488 got 密碼錯誤
-2026-05-04 10:15:10 [decrypt] WARNING: blues 4499 got 密碼錯誤
-2026-05-04 10:15:11 [decrypt] WARNING: blues 5500 got 密碼錯誤
-2026-05-04 10:15:12 [decrypt] WARNING: blues 5511 got 密碼錯誤
-2026-05-04 10:15:12 [decrypt] WARNING: blues 5522 got 密碼錯誤
-2026-05-04 10:15:13 [decrypt] WARNING: blues 5533 got 密碼錯誤
-2026-05-04 10:15:14 [decrypt] WARNING: blues 5544 got 密碼錯誤
-2026-05-04 10:15:15 [decrypt] WARNING: blues 5555 got 密碼錯誤
-2026-05-04 10:15:16 [decrypt] WARNING: blues 5566 got 密碼錯誤
-2026-05-04 10:15:16 [decrypt] WARNING: blues 5577 got 密碼錯誤
-2026-05-04 10:15:17 [decrypt] WARNING: blues 5588 got 密碼錯誤
-2026-05-04 10:15:18 [decrypt] WARNING: blues 5599 got 密碼錯誤
-2026-05-04 10:15:19 [decrypt] WARNING: blues 6600 got 密碼錯誤
-2026-05-04 10:15:20 [decrypt] WARNING: blues 6611 got 密碼錯誤
-2026-05-04 10:15:21 [decrypt] WARNING: blues 6622 got 密碼錯誤
-2026-05-04 10:15:22 [decrypt] WARNING: blues 6633 got 密碼錯誤
-2026-05-04 10:15:23 [decrypt] WARNING: blues 6644 got 密碼錯誤
-2026-05-04 10:15:24 [decrypt] WARNING: blues 6655 got 密碼錯誤
-2026-05-04 10:15:24 [decrypt] WARNING: blues 6666 got 密碼錯誤
-2026-05-04 10:15:25 [decrypt] WARNING: blues 6677 got 密碼錯誤
-2026-05-04 10:15:26 [decrypt] WARNING: blues 6688 got 密碼錯誤
-2026-05-04 10:15:27 [decrypt] WARNING: blues 6699 got 密碼錯誤
-2026-05-04 10:15:28 [decrypt] WARNING: blues 7700 got 密碼錯誤
-2026-05-04 10:15:29 [decrypt] WARNING: blues 7711 got 密碼錯誤
-2026-05-04 10:15:30 [decrypt] WARNING: blues 7722 got 密碼錯誤
-2026-05-04 10:15:30 [decrypt] WARNING: blues 7733 got 密碼錯誤
-2026-05-04 10:15:31 [decrypt] WARNING: blues 7744 got 密碼錯誤
-2026-05-04 10:15:32 [decrypt] WARNING: blues 7755 got 密碼錯誤
-2026-05-04 10:15:33 [decrypt] WARNING: blues 7766 got 密碼錯誤
-2026-05-04 10:15:34 [decrypt] WARNING: blues 7777 got 密碼錯誤
-2026-05-04 10:15:34 [decrypt] WARNING: blues 7788 got 密碼錯誤
-2026-05-04 10:15:35 [decrypt] WARNING: blues 7799 got 密碼錯誤
-2026-05-04 10:15:36 [decrypt] WARNING: blues 8800 got 密碼錯誤
-2026-05-04 10:15:37 [decrypt] WARNING: blues 8811 got 密碼錯誤
-2026-05-04 10:15:38 [decrypt] WARNING: blues 8822 got 密碼錯誤
-2026-05-04 10:15:39 [decrypt] WARNING: blues 8833 got 密碼錯誤
-2026-05-04 10:15:39 [decrypt] WARNING: blues 8844 got 密碼錯誤
-2026-05-04 10:15:40 [decrypt] WARNING: blues 8855 got 密碼錯誤
-2026-05-04 10:15:41 [decrypt] WARNING: blues 8866 got 密碼錯誤
-2026-05-04 10:15:42 [decrypt] WARNING: blues 8877 got 密碼錯誤
-2026-05-04 10:15:43 [decrypt] WARNING: blues 8888 got 密碼錯誤
-2026-05-04 10:15:44 [decrypt] WARNING: blues 8899 got 密碼錯誤
-2026-05-04 10:15:45 [decrypt] WARNING: blues 9900 got 密碼錯誤
-2026-05-04 10:15:46 [decrypt] WARNING: blues 9911 got 密碼錯誤
-2026-05-04 10:15:49 [decrypt] INFO: blues saved new password 9922
-2026-05-04 10:15:49 [decrypt] WARNING: blues 9922 got 密碼錯誤
-2026-05-04 10:15:50 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2026-05-04 10:15:51 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2026-05-04 10:15:52 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2026-05-04 10:15:53 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2026-05-04 10:15:53 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2026-05-04 10:15:54 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2026-05-04 10:15:55 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2026-05-04 10:15:56 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2026-05-04 10:15:56 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2026-05-04 10:15:57 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2026-05-04 10:15:58 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2026-05-04 10:15:59 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2026-05-04 10:16:00 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2026-05-04 10:16:00 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2026-05-04 10:16:01 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2026-05-04 10:16:02 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2026-05-04 10:16:03 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2026-05-04 10:16:04 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2026-05-04 10:16:05 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2026-05-04 10:16:06 [decrypt] WARNING: blues 1199 got 密碼錯誤
-2026-05-04 10:16:07 [decrypt] WARNING: blues 2200 got 密碼錯誤
-2026-05-04 10:16:08 [decrypt] WARNING: blues 2211 got 密碼錯誤
-2026-05-04 10:16:08 [decrypt] WARNING: blues 2222 got 密碼錯誤
-2026-05-04 10:16:09 [decrypt] WARNING: blues 2233 got 密碼錯誤
-2026-05-04 10:16:10 [decrypt] WARNING: blues 2244 got 密碼錯誤
-2026-05-04 10:16:11 [decrypt] WARNING: blues 2255 got 密碼錯誤
-2026-05-04 10:16:12 [decrypt] WARNING: blues 2266 got 密碼錯誤
-2026-05-04 10:16:13 [decrypt] WARNING: blues 2277 got 密碼錯誤
-2026-05-04 10:16:14 [decrypt] WARNING: blues 2288 got 密碼錯誤
-2026-05-04 10:16:14 [decrypt] WARNING: blues 2299 got 密碼錯誤
-2026-05-04 10:16:15 [decrypt] WARNING: blues 3300 got 密碼錯誤
-2026-05-04 10:16:16 [decrypt] WARNING: blues 3311 got 密碼錯誤
-2026-05-04 10:16:17 [decrypt] WARNING: blues 3322 got 密碼錯誤
-2026-05-04 10:16:18 [decrypt] WARNING: blues 3333 got 密碼錯誤
-2026-05-04 10:16:19 [decrypt] WARNING: blues 3344 got 密碼錯誤
-2026-05-04 10:16:20 [decrypt] WARNING: blues 3355 got 密碼錯誤
-2026-05-04 10:16:21 [decrypt] WARNING: blues 3366 got 密碼錯誤
-2026-05-04 10:16:22 [decrypt] WARNING: blues 3377 got 密碼錯誤
-2026-05-04 10:16:22 [decrypt] WARNING: blues 3388 got 密碼錯誤
-2026-05-04 10:16:23 [decrypt] WARNING: blues 3399 got 密碼錯誤
-2026-05-04 10:16:24 [decrypt] WARNING: blues 4400 got 密碼錯誤
-2026-05-04 10:16:25 [decrypt] WARNING: blues 4411 got 密碼錯誤
-2026-05-04 10:16:26 [decrypt] WARNING: blues 4422 got 密碼錯誤
-2026-05-04 10:16:27 [decrypt] WARNING: blues 4433 got 密碼錯誤
-2026-05-04 10:16:28 [decrypt] WARNING: blues 4444 got 密碼錯誤
-2026-05-04 10:16:29 [decrypt] WARNING: blues 4455 got 密碼錯誤
-2026-05-04 10:16:29 [decrypt] WARNING: blues 4466 got 密碼錯誤
-2026-05-04 10:16:30 [decrypt] WARNING: blues 4477 got 密碼錯誤
-2026-05-04 10:16:31 [decrypt] WARNING: blues 4488 got 密碼錯誤
-2026-05-04 10:16:32 [decrypt] WARNING: blues 4499 got 密碼錯誤
-2026-05-04 10:16:33 [decrypt] WARNING: blues 5500 got 密碼錯誤
-2026-05-04 10:16:36 [decrypt] INFO: blues saved new password 5511
-2026-05-04 10:16:36 [scrapy.extensions.logstats] INFO: Crawled 4 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2026-05-04 10:16:36 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.yudou123.top/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-2026-05-04 10:16:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.yudou123.top/>
+2026-05-04 16:01:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2026-05-04 16:01:54 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2026-05-04 16:01:54 [decrypt] INFO: yudou66 start
+2026-05-04 16:01:54 [decrypt] INFO: blues start
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/02/2026234kchatgpt4k8kclashv2ray.html on 2026-02-03
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/2026224kchatgpt4k8kclashv2ray.html on 2026-02-02
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261314kchatgpt4k8kclashv2ray.html on 2026-02-01
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261314kchatgpt4k8kclashv2ray_30.html on 2026-01-31
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261304kchatgpt4k8kclashv2ray.html on 2026-01-30
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261284kchatgpt4k8kclashv2ray.html on 2026-01-28
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261294kchatgpt4k8kclashv2ray.html on 2026-01-29
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261274kchatgpt4k8kclashv2ray.html on 2026-01-27
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261254kchatgpt4k8kclashv2ray.html on 2026-01-25
+2026-05-04 16:01:55 [decrypt] INFO: blues found https://blues2022.blogspot.com/2026/01/20261244kchatgpt4k8kclashv2ray.html on 2026-01-24
+2026-05-04 16:01:55 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2026/02/2026234kchatgpt4k8kclashv2ray.html
+2026-05-04 16:01:55 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2026/01/2026224kchatgpt4k8kclashv2ray.html
+2026-05-04 16:01:55 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2026/01/20261314kchatgpt4k8kclashv2ray.html
+2026-05-04 16:01:57 [decrypt] WARNING: blues 5511 got 密碼錯誤
+2026-05-04 16:01:58 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2026-05-04 16:01:59 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2026-05-04 16:02:00 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2026-05-04 16:02:00 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2026-05-04 16:02:01 [decrypt] WARNING: blues 0044 got 密碼錯誤
+2026-05-04 16:02:02 [decrypt] WARNING: blues 0055 got 密碼錯誤
+2026-05-04 16:02:03 [decrypt] WARNING: blues 0066 got 密碼錯誤
+2026-05-04 16:02:04 [decrypt] WARNING: blues 0077 got 密碼錯誤
+2026-05-04 16:02:05 [decrypt] WARNING: blues 0088 got 密碼錯誤
+2026-05-04 16:02:06 [decrypt] WARNING: blues 0099 got 密碼錯誤
+2026-05-04 16:02:06 [decrypt] WARNING: blues 1100 got 密碼錯誤
+2026-05-04 16:02:07 [decrypt] WARNING: blues 1111 got 密碼錯誤
+2026-05-04 16:02:08 [decrypt] WARNING: blues 1122 got 密碼錯誤
+2026-05-04 16:02:09 [decrypt] WARNING: blues 1133 got 密碼錯誤
+2026-05-04 16:02:10 [decrypt] WARNING: blues 1144 got 密碼錯誤
+2026-05-04 16:02:11 [decrypt] WARNING: blues 1155 got 密碼錯誤
+2026-05-04 16:02:11 [decrypt] WARNING: blues 1166 got 密碼錯誤
+2026-05-04 16:02:12 [decrypt] WARNING: blues 1177 got 密碼錯誤
+2026-05-04 16:02:13 [decrypt] WARNING: blues 1188 got 密碼錯誤
+2026-05-04 16:02:14 [decrypt] WARNING: blues 1199 got 密碼錯誤
+2026-05-04 16:02:15 [decrypt] WARNING: blues 2200 got 密碼錯誤
+2026-05-04 16:02:16 [decrypt] WARNING: blues 2211 got 密碼錯誤
+2026-05-04 16:02:17 [decrypt] WARNING: blues 2222 got 密碼錯誤
+2026-05-04 16:02:17 [decrypt] WARNING: blues 2233 got 密碼錯誤
+2026-05-04 16:02:18 [decrypt] WARNING: blues 2244 got 密碼錯誤
+2026-05-04 16:02:19 [decrypt] WARNING: blues 2255 got 密碼錯誤
+2026-05-04 16:02:20 [decrypt] WARNING: blues 2266 got 密碼錯誤
+2026-05-04 16:02:21 [decrypt] WARNING: blues 2277 got 密碼錯誤
+2026-05-04 16:02:22 [decrypt] WARNING: blues 2288 got 密碼錯誤
+2026-05-04 16:02:22 [decrypt] WARNING: blues 2299 got 密碼錯誤
+2026-05-04 16:02:23 [decrypt] WARNING: blues 3300 got 密碼錯誤
+2026-05-04 16:02:24 [decrypt] WARNING: blues 3311 got 密碼錯誤
+2026-05-04 16:02:25 [decrypt] WARNING: blues 3322 got 密碼錯誤
+2026-05-04 16:02:26 [decrypt] WARNING: blues 3333 got 密碼錯誤
+2026-05-04 16:02:27 [decrypt] WARNING: blues 3344 got 密碼錯誤
+2026-05-04 16:02:27 [decrypt] WARNING: blues 3355 got 密碼錯誤
+2026-05-04 16:02:28 [decrypt] WARNING: blues 3366 got 密碼錯誤
+2026-05-04 16:02:29 [decrypt] WARNING: blues 3377 got 密碼錯誤
+2026-05-04 16:02:30 [decrypt] WARNING: blues 3388 got 密碼錯誤
+2026-05-04 16:02:31 [decrypt] WARNING: blues 3399 got 密碼錯誤
+2026-05-04 16:02:32 [decrypt] WARNING: blues 4400 got 密碼錯誤
+2026-05-04 16:02:32 [decrypt] WARNING: blues 4411 got 密碼錯誤
+2026-05-04 16:02:33 [decrypt] WARNING: blues 4422 got 密碼錯誤
+2026-05-04 16:02:34 [decrypt] WARNING: blues 4433 got 密碼錯誤
+2026-05-04 16:02:35 [decrypt] WARNING: blues 4444 got 密碼錯誤
+2026-05-04 16:02:36 [decrypt] WARNING: blues 4455 got 密碼錯誤
+2026-05-04 16:02:37 [decrypt] WARNING: blues 4466 got 密碼錯誤
+2026-05-04 16:02:37 [decrypt] WARNING: blues 4477 got 密碼錯誤
+2026-05-04 16:02:38 [decrypt] WARNING: blues 4488 got 密碼錯誤
+2026-05-04 16:02:39 [decrypt] WARNING: blues 4499 got 密碼錯誤
+2026-05-04 16:02:40 [decrypt] WARNING: blues 5500 got 密碼錯誤
+2026-05-04 16:02:41 [decrypt] WARNING: blues 5511 got 密碼錯誤
+2026-05-04 16:02:42 [decrypt] WARNING: blues 5522 got 密碼錯誤
+2026-05-04 16:02:42 [decrypt] WARNING: blues 5533 got 密碼錯誤
+2026-05-04 16:02:43 [decrypt] WARNING: blues 5544 got 密碼錯誤
+2026-05-04 16:02:44 [decrypt] WARNING: blues 5555 got 密碼錯誤
+2026-05-04 16:02:45 [decrypt] WARNING: blues 5566 got 密碼錯誤
+2026-05-04 16:02:46 [decrypt] WARNING: blues 5577 got 密碼錯誤
+2026-05-04 16:02:47 [decrypt] WARNING: blues 5588 got 密碼錯誤
+2026-05-04 16:02:47 [decrypt] WARNING: blues 5599 got 密碼錯誤
+2026-05-04 16:02:48 [decrypt] WARNING: blues 6600 got 密碼錯誤
+2026-05-04 16:02:49 [decrypt] WARNING: blues 6611 got 密碼錯誤
+2026-05-04 16:02:50 [decrypt] WARNING: blues 6622 got 密碼錯誤
+2026-05-04 16:02:53 [decrypt] INFO: blues saved new password 6633
+2026-05-04 16:02:54 [decrypt] WARNING: blues 6633 got 密碼錯誤
+2026-05-04 16:02:55 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2026-05-04 16:02:56 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2026-05-04 16:02:56 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2026-05-04 16:02:57 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2026-05-04 16:02:58 [decrypt] WARNING: blues 0044 got 密碼錯誤
+2026-05-04 16:02:59 [decrypt] WARNING: blues 0055 got 密碼錯誤
+2026-05-04 16:03:00 [decrypt] WARNING: blues 0066 got 密碼錯誤
+2026-05-04 16:03:01 [decrypt] WARNING: blues 0077 got 密碼錯誤
+2026-05-04 16:03:01 [decrypt] WARNING: blues 0088 got 密碼錯誤
+2026-05-04 16:03:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2026/01/20261314kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/2026/01/20261314kchatgpt4k8kclashv2ray.html)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 357, in iter_errback
+    yield next(it)
+          ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 311, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 311, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 186, in process_sync
+    self._process_spider_exception(
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 259, in _process_spider_exception
+    raise exception
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 182, in process_sync
+    yield from iterable
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 186, in process_sync
+    self._process_spider_exception(
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 259, in _process_spider_exception
+    raise exception
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 182, in process_sync
+    yield from iterable
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 186, in process_sync
+    self._process_spider_exception(
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 259, in _process_spider_exception
+    raise exception
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 182, in process_sync
+    yield from iterable
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 186, in process_sync
+    self._process_spider_exception(
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 259, in _process_spider_exception
+    raise exception
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 182, in process_sync
+    yield from iterable
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 61, in process_spider_output
+    yield from super().process_spider_output(response, result)
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 186, in process_sync
+    self._process_spider_exception(
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 259, in _process_spider_exception
+    raise exception
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 182, in process_sync
+    yield from iterable
+  File "/home/runner/work/FreeNodes/FreeNodes/NodeScrapy/spiders/DecryptSpider.py", line 97, in parse_blog
+    ok, msg = self._decrypt(response.url, method, pwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/FreeNodes/FreeNodes/NodeScrapy/spiders/DecryptSpider.py", line 49, in _decrypt
+    wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, "button")))
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2026-05-04 16:03:14 [decrypt] WARNING: blues 6633 got 密碼錯誤
+2026-05-04 16:03:14 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2026-05-04 16:03:15 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2026-05-04 16:03:16 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2026-05-04 16:03:16 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2026-05-04 16:03:17 [decrypt] WARNING: blues 0044 got 密碼錯誤
+2026-05-04 16:03:18 [decrypt] WARNING: blues 0055 got 密碼錯誤
+2026-05-04 16:03:18 [decrypt] WARNING: blues 0066 got 密碼錯誤
+2026-05-04 16:03:19 [decrypt] WARNING: blues 0077 got 密碼錯誤
+2026-05-04 16:03:20 [decrypt] WARNING: blues 0088 got 密碼錯誤
+2026-05-04 16:03:21 [decrypt] WARNING: blues 0099 got 密碼錯誤
+2026-05-04 16:03:21 [decrypt] WARNING: blues 1100 got 密碼錯誤
+2026-05-04 16:03:22 [decrypt] WARNING: blues 1111 got 密碼錯誤
+2026-05-04 16:03:23 [decrypt] WARNING: blues 1122 got 密碼錯誤
+2026-05-04 16:03:24 [decrypt] WARNING: blues 1133 got 密碼錯誤
+2026-05-04 16:03:25 [decrypt] WARNING: blues 1144 got 密碼錯誤
+2026-05-04 16:03:26 [decrypt] WARNING: blues 1155 got 密碼錯誤
+2026-05-04 16:03:27 [decrypt] WARNING: blues 1166 got 密碼錯誤
+2026-05-04 16:03:27 [decrypt] WARNING: blues 1177 got 密碼錯誤
+2026-05-04 16:03:28 [decrypt] WARNING: blues 1188 got 密碼錯誤
+2026-05-04 16:03:29 [decrypt] WARNING: blues 1199 got 密碼錯誤
+2026-05-04 16:03:30 [decrypt] WARNING: blues 2200 got 密碼錯誤
+2026-05-04 16:03:30 [decrypt] WARNING: blues 2211 got 密碼錯誤
+2026-05-04 16:03:31 [decrypt] WARNING: blues 2222 got 密碼錯誤
+2026-05-04 16:03:32 [decrypt] WARNING: blues 2233 got 密碼錯誤
+2026-05-04 16:03:33 [decrypt] WARNING: blues 2244 got 密碼錯誤
+2026-05-04 16:03:34 [decrypt] WARNING: blues 2255 got 密碼錯誤
+2026-05-04 16:03:35 [decrypt] WARNING: blues 2266 got 密碼錯誤
+2026-05-04 16:03:36 [decrypt] WARNING: blues 2277 got 密碼錯誤
+2026-05-04 16:03:37 [decrypt] WARNING: blues 2288 got 密碼錯誤
+2026-05-04 16:03:37 [decrypt] WARNING: blues 2299 got 密碼錯誤
+2026-05-04 16:03:38 [decrypt] WARNING: blues 3300 got 密碼錯誤
+2026-05-04 16:03:39 [decrypt] WARNING: blues 3311 got 密碼錯誤
+2026-05-04 16:03:40 [decrypt] WARNING: blues 3322 got 密碼錯誤
+2026-05-04 16:03:41 [decrypt] WARNING: blues 3333 got 密碼錯誤
+2026-05-04 16:03:42 [decrypt] WARNING: blues 3344 got 密碼錯誤
+2026-05-04 16:03:43 [decrypt] WARNING: blues 3355 got 密碼錯誤
+2026-05-04 16:03:44 [decrypt] WARNING: blues 3366 got 密碼錯誤
+2026-05-04 16:03:44 [decrypt] WARNING: blues 3377 got 密碼錯誤
+2026-05-04 16:03:46 [decrypt] WARNING: blues 3388 got 密碼錯誤
+2026-05-04 16:03:47 [decrypt] WARNING: blues 3399 got 密碼錯誤
+2026-05-04 16:03:47 [decrypt] WARNING: blues 4400 got 密碼錯誤
+2026-05-04 16:03:48 [decrypt] WARNING: blues 4411 got 密碼錯誤
+2026-05-04 16:03:49 [decrypt] WARNING: blues 4422 got 密碼錯誤
+2026-05-04 16:03:50 [decrypt] WARNING: blues 4433 got 密碼錯誤
+2026-05-04 16:03:51 [decrypt] WARNING: blues 4444 got 密碼錯誤
+2026-05-04 16:03:52 [decrypt] WARNING: blues 4455 got 密碼錯誤
+2026-05-04 16:03:53 [decrypt] WARNING: blues 4466 got 密碼錯誤
+2026-05-04 16:03:53 [decrypt] WARNING: blues 4477 got 密碼錯誤
+2026-05-04 16:03:54 [decrypt] WARNING: blues 4488 got 密碼錯誤
+2026-05-04 16:03:55 [decrypt] WARNING: blues 4499 got 密碼錯誤
+2026-05-04 16:03:56 [decrypt] WARNING: blues 5500 got 密碼錯誤
+2026-05-04 16:03:59 [decrypt] INFO: blues saved new password 5511
+2026-05-04 16:03:59 [scrapy.extensions.logstats] INFO: Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+2026-05-04 16:03:59 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.yudou123.top/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2026-05-04 16:03:59 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.yudou123.top/>
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/utils/_download_handlers.py", line 61, in wrap_twisted_exceptions
     yield
@@ -498,31 +473,31 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/utils/_download_handlers.py", line 71, in wrap_twisted_exceptions
     raise DownloadFailedError(str(e)) from e
 scrapy.exceptions.DownloadFailedError: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-2026-05-04 10:16:36 [scrapy.core.engine] INFO: Closing spider (finished)
-2026-05-04 10:16:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2026-05-04 16:03:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2026-05-04 16:04:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/exception_count': 3,
  'downloader/exception_type_count/scrapy.exceptions.DownloadFailedError': 3,
- 'downloader/request_bytes': 4287,
+ 'downloader/request_bytes': 4151,
  'downloader/request_count': 11,
  'downloader/request_method_count/GET': 11,
- 'downloader/response_bytes': 169811,
+ 'downloader/response_bytes': 169818,
  'downloader/response_count': 8,
  'downloader/response_status_count/200': 4,
  'downloader/response_status_count/302': 4,
- 'elapsed_time_seconds': 191.204379,
+ 'elapsed_time_seconds': 125.168252,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2026, 5, 4, 10, 16, 36, 664459, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2026, 5, 4, 16, 4, 0, 17741, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 962879,
  'httpcompression/response_count': 4,
  'items_per_minute': 0.0,
- 'log_count/ERROR': 2,
- 'log_count/INFO': 23,
- 'log_count/WARNING': 209,
- 'memusage/max': 184897536,
- 'memusage/startup': 177426432,
+ 'log_count/ERROR': 3,
+ 'log_count/INFO': 21,
+ 'log_count/WARNING': 126,
+ 'memusage/max': 184872960,
+ 'memusage/startup': 177401856,
  'request_depth_max': 1,
  'response_received_count': 4,
- 'responses_per_minute': 1.256544502617801,
+ 'responses_per_minute': 1.92,
  'retry/count': 2,
  'retry/max_reached': 1,
  'retry/reason_count/scrapy.exceptions.DownloadFailedError': 2,
@@ -530,5 +505,7 @@ scrapy.exceptions.DownloadFailedError: [<twisted.python.failure.Failure twisted.
  'scheduler/dequeued/memory': 11,
  'scheduler/enqueued': 11,
  'scheduler/enqueued/memory': 11,
- 'start_time': datetime.datetime(2026, 5, 4, 10, 13, 25, 460080, tzinfo=datetime.timezone.utc)}
-2026-05-04 10:16:36 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'spider_exceptions/TimeoutException': 1,
+ 'spider_exceptions/count': 1,
+ 'start_time': datetime.datetime(2026, 5, 4, 16, 1, 54, 849489, tzinfo=datetime.timezone.utc)}
+2026-05-04 16:04:00 [scrapy.core.engine] INFO: Spider closed (finished)
